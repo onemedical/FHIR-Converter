@@ -341,6 +341,16 @@ module.exports.external = [
         }
     },
     {
+        name: 'equals',
+        description: 'Returns true if a string equals another string: equals parentStr and childStr',
+        func: function (parentStr, childStr) {
+            if (!parentStr) {
+                return false;
+            }
+            return parentStr.toString() == childStr;
+        }
+    },
+    {
         name: 'sha1Hash',
         description: 'Returns sha1 hash (in hex) of given string: sha1Hash string',
         func: function (str) {
@@ -557,8 +567,8 @@ module.exports.external = [
                 for (var t = 0; t < templateIds.length - 1; t++) { //-1 because templateIds includes the full message at the end
                     for (var i = 0; i < msg.ClinicalDocument.component.structuredBody.component.length; i++) {
                         let sectionObj = msg.ClinicalDocument.component.structuredBody.component[i].section;
-                        
-                        if (sectionObj.templateId && JSON.stringify(sectionObj.templateId).includes(templateIds[t])) {
+                        let templateIdToCompare = Array.isArray(sectionObj.templateId) ? sectionObj.templateId[0]["root"] : sectionObj.templateId["root"];
+                        if (sectionObj.templateId && templateIds[t] === templateIdToCompare) {
                             ret[normalizeSectionName(templateIds[t])] = sectionObj;
                             break;
                         }
