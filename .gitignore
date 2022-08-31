@@ -74,5 +74,4 @@ tmp/
 src/lib/outputProcessor/autogen/*.interp
 src/lib/outputProcessor/autogen/*.tokens
 
-*.DS_Store
 .idea
