@@ -341,16 +341,6 @@ module.exports.external = [
         }
     },
     {
-        name: 'equals',
-        description: 'Returns true if a string equals another string: equals parentStr and childStr',
-        func: function (parentStr, childStr) {
-            if (!parentStr) {
-                return false;
-            }
-            return parentStr.toString() == childStr;
-        }
-    },
-    {
         name: 'sha1Hash',
         description: 'Returns sha1 hash (in hex) of given string: sha1Hash string',
         func: function (str) {
