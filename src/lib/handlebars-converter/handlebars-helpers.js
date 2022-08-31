@@ -587,8 +587,6 @@ module.exports.external = [
                             if(entryObj){
                                 let observationObj =  entryObj.observation;
                                 if (observationObj.templateId && JSON.stringify(observationObj.templateId).includes(childTemplateId)) {
-                                    console.log("Obs object "+ JSON.stringify(observationObj.value.code));
-                                    console.log("Template Id "+ JSON.stringify(observationObj.templateId));
                                     birthSexCode = observationObj.value.code;
                                     break;
                                 }
