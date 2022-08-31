@@ -2649,29 +2649,26 @@
                             }
                         ]
                     },
-                    "status": [
-                        "statusReason",
-                        {
-                            "coding": [
-                                {
-                                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
-                                    "code": "MEDPREC",
-                                    "display": "medical precaution"
-                                }
-                            ]
-                        },
-                        "route",
-                        {
-                            "coding": [
-                                {
-                                    "code": "C28161",
-                                    "display": "Intramuscular injection",
-                                    "system": "urn:oid:2.16.840.1.113883.3.26.1.1"
-                                }
-                            ]
-                        },
-                        "site"
-                    ],
+                    "primarySource": true,
+                    "status": "completed",
+                    "statusReason": {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+                                "code": "MEDPREC",
+                                "display": "medical precaution"
+                            }
+                        ]
+                    },
+                    "route": {
+                        "coding": [
+                            {
+                                "code": "C28161",
+                                "display": "Intramuscular injection",
+                                "system": "urn:oid:2.16.840.1.113883.3.26.1.1"
+                            }
+                        ]
+                    },
                     "patient": {
                         "reference": "Patient/f40da2df-7505-315a-9acb-55513a02c37b"
                     }
@@ -2701,20 +2698,17 @@
                             }
                         ]
                     },
-                    "status": [
-                        "statusReason",
-                        {
-                            "coding": [
-                                {
-                                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
-                                    "code": "MEDPREC",
-                                    "display": "medical precaution"
-                                }
-                            ]
-                        },
-                        "route",
-                        "site"
-                    ],
+                    "primarySource": true,
+                    "status": "cancelled",
+                    "statusReason": {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+                                "code": "MEDPREC",
+                                "display": "medical precaution"
+                            }
+                        ]
+                    },
                     "patient": {
                         "reference": "Patient/f40da2df-7505-315a-9acb-55513a02c37b"
                     }
@@ -2745,29 +2739,26 @@
                             }
                         ]
                     },
-                    "status": [
-                        "statusReason",
-                        {
-                            "coding": [
-                                {
-                                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
-                                    "code": "MEDPREC",
-                                    "display": "medical precaution"
-                                }
-                            ]
-                        },
-                        "route",
-                        {
-                            "coding": [
-                                {
-                                    "code": "C28161",
-                                    "display": "Intramuscular injection",
-                                    "system": "urn:oid:2.16.840.1.113883.3.26.1.1"
-                                }
-                            ]
-                        },
-                        "site"
-                    ],
+                    "primarySource": true,
+                    "status": "completed",
+                    "statusReason": {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+                                "code": "MEDPREC",
+                                "display": "medical precaution"
+                            }
+                        ]
+                    },
+                    "route": {
+                        "coding": [
+                            {
+                                "code": "C28161",
+                                "display": "Intramuscular injection",
+                                "system": "urn:oid:2.16.840.1.113883.3.26.1.1"
+                            }
+                        ]
+                    },
                     "patient": {
                         "reference": "Patient/f40da2df-7505-315a-9acb-55513a02c37b"
                     }
@@ -2817,7 +2808,7 @@
                             }
                         ]
                     },
-                    "date": "2022-08-31T13:29:26.137Z",
+                    "date": "2022-08-31T14:29:38.556Z",
                     "status": "current",
                     "content": [
                         {
@@ -2835,4 +2826,5 @@
                 }
             }
         ]
+
 }

@@ -9,9 +9,6 @@
             	{{>DataType/Identifier.hbs id=this}},
             {{/each}}
         ],
-        {{#each (toArray imm.entryRelationship)}}
-            "statusReason":{{>DataType/CodeableConcept.hbs}},
-        {{/each}}
 
         {{#if imm.effectiveTime.low}}
         	"occurrenceDateTime":"{{formatAsDateTime imm.effectiveTime.low.value}}",
@@ -27,8 +24,8 @@
                 {{/if}}
             {{/each}}
         {{/each}}
-       "primarySource": true,
-       "status":"{{imm.statusCode.code}}",
+        "primarySource": true,
+        "status":"{{imm.statusCode.code}}",
         "statusReason": {
             "coding": [
                 {
