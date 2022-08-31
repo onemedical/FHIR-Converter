@@ -9,4 +9,7 @@
     "state": "{{addr.state._}}",
     "country": "{{addr.country._}}",
     "postalCode": "{{addr.postalCode._}}",
+    {{#if period}}
+      "period": "{{addHyphensDate period}}",
+    {{/if}}
 },
