@@ -571,6 +571,37 @@ module.exports.external = [
             }
         }
     },
+
+    {
+        name: 'getBirthSexInfoByTemplateId',
+        description: "Returns BirthSex code",
+        func: function getBirthSexInfoByTemplateId(msg, parentTemplateId, childTemplateId) {
+            try {
+                var birthSexCode;
+                for (var i = 0; i < msg.ClinicalDocument.component.structuredBody.component.length; i++) {
+                    let sectionObj =  msg.ClinicalDocument.component.structuredBody.component[i].section;
+                    if (sectionObj.templateId && JSON.stringify(sectionObj.templateId).includes(parentTemplateId)) {
+                        let entryObjs = sectionObj.entry;
+                        for(var j = 0; j < entryObjs.length; j++){
+                            let entryObj = entryObjs[j];
+                            if(entryObj){
+                                let observationObj =  entryObj.observation;
+                                if (observationObj.templateId && JSON.stringify(observationObj.templateId).includes(childTemplateId)) {
+                                    birthSexCode = observationObj.value.code;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+                return birthSexCode;
+            }
+            catch (err) {
+                throw `helper "getBirthSexInfoByTemplateId" : ${err}`;
+            }
+        }
+    },
+  
     {
         name: 'getFieldRepeats',
         description: 'Returns repeat list for a field: getFieldRepeats fieldData',
