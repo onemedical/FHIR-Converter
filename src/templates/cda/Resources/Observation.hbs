@@ -41,21 +41,25 @@
             {
                 "start":"{{formatAsDateTime observationEntry.effectiveTime.low.value}}",
                 "end":"{{formatAsDateTime observationEntry.effectiveTime.high.value}}",
+                "issued":"{{formatAsDateTime observationEntry.effectiveTime.low.value}}",
             },
         {{else}}
             "effectiveDateTime":"{{formatAsDateTime observationEntry.effectiveTime.value}}",
+            "issued":"{{formatAsDateTime observationEntry.effectiveTime.value}}",
         {{/if}}
         
         "bodySite":{{>DataType/CodeableConcept.hbs code=observationEntry.targetSiteCode}},
-        
+
         {{#if observationEntry.value.code}}
             "valueCodeableConcept":{{>DataType/CodeableConcept.hbs code=observationEntry.value}},
         {{else if observationEntry.value.value}}
             "valueQuantity":
             {
-                "value":{{observationEntry.value.value}},
+                "value":"{{observationEntry.value.value}}",
                 "unit":"{{observationEntry.value.unit}}",
-            }, 
+                "code":"{{observationEntry.value.unit}}",
+                "system":"http://unitsofmeasure.org",
+            },
         {{else}}
             "valueString":"{{observationEntry.value._}}",
         {{/if}}
