@@ -368,6 +368,7 @@
                 <reference value="#Goals"/>
               </text>
               <statusCode code="active"/>
+              <effectiveTime value="20220128050000+0000" xsi:type="IVL_TS"/>
             </observation>
           </entry>
         </section>

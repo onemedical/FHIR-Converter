@@ -3684,10 +3684,46 @@
             }
         },
         {
+<<<<<<< HEAD
             "fullUrl": "urn:uuid:f492aca3-d0d0-38d8-9c12-18230388219d",
             "resource": {
                 "resourceType": "DocumentReference",
                 "id": "f492aca3-d0d0-38d8-9c12-18230388219d",
+=======
+            "fullUrl": "urn:uuid:fbc12212-d6a5-36d8-89e0-c4fe753c11fd",
+            "resource": {
+                "resourceType": "Goal",
+                "id": "fbc12212-d6a5-36d8-89e0-c4fe753c11fd",
+                "description": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "61146-7"
+                        }
+                    ],
+                    "text": "Get rid of intermittent fever that is occurring every few weeks.Need to gain more energy to do regular activities"
+                },
+                "lifecycleStatus": "active",
+                "target": [
+                    {
+                        "dueDate": "2022-01-28"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/f40da2df-7505-315a-9acb-55513a02c37b"
+                }
+            },
+            "request": {
+                "method": "PUT",
+                "url": "Goal/fbc12212-d6a5-36d8-89e0-c4fe753c11fd"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:a42801d5-5fec-3413-b5f9-effae48931fe",
+            "resource": {
+                "resourceType": "DocumentReference",
+                "id": "a42801d5-5fec-3413-b5f9-effae48931fe",
+>>>>>>> be9f648 (Fixing goal resource)
                 "type": {
                     "coding": [
                         {

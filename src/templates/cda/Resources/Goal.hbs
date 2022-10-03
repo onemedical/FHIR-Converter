@@ -10,29 +10,23 @@
             	{{>DataType/Identifier.hbs id=this}},
             {{/each}}
         ],
-        
-        "description":{{>DataType/CodeableConcept.hbs code=goalEntry.code}},
-        
-        "lifecycleStatus":"{{goalEntry.statusCode.code}}",
-       
-        
-        {{#with (elementAt (toArray goalEntry.entryRelationship) 1)}}
-            "priority":{{>DataType/CodeableConcept.hbs code=this.observation.value}}, 
-        {{/with}}
 
-        "target":
-        {
-            "measure":
-            [
-            	{{#if goalEntry.code.translation}}
-                    {{>DataType/CodeableConcept.hbs code=goalEntry.code.translation}},
-                {{else}}
-                    {{>DataType/CodeableConcept.hbs code=goalEntry.code}},
-                {{/if}}
-            ],  
-            "detailQuantity":"{{goalEntry.value.low.value}}{{goalEntry.value.low.unit}}",
-            "dueDate":"{{addHyphensDate goalEntry.effectiveTime.value}}",         
+        "description": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "61146-7"
+            }
+          ],
+          "text": "Get rid of intermittent fever that is occurring every few weeks.Need to gain more energy to do regular activities"
         },
+        "lifecycleStatus":"{{goalEntry.statusCode.code}}",
+
+        "target": [
+            {
+                "dueDate": "{{addHyphensDate goalEntry.effectiveTime.value}}",
+            }
+        ],
     },
     "request":{
         "method":"PUT",
