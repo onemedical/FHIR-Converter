@@ -3,10 +3,17 @@
     "type": "batch",
     "entry": [
         {
+<<<<<<< HEAD
             "fullUrl": "urn:uuid:36ac5684-5958-3f6b-91f6-0887abb24a10",
             "resource": {
                 "resourceType": "Composition",
                 "id": "36ac5684-5958-3f6b-91f6-0887abb24a10",
+=======
+            "fullUrl": "urn:uuid:ca59563a-05b8-34a0-8a18-ec8bc3a62cb3",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "ca59563a-05b8-34a0-8a18-ec8bc3a62cb3",
+>>>>>>> f52826e (Updating chirp ccda and test data)
                 "identifier": {
                     "use": "official",
                     "value": "TT101"
@@ -21,13 +28,22 @@
                         }
                     ]
                 },
+<<<<<<< HEAD
                 "date": "2022-09-13T21:23:45.000Z",
                 "title": "Data for Alice Newman, starting 09/13/1922, ending 09/13/2022",
+=======
+                "date": "2022-10-03T18:59:31.000Z",
+                "title": "Data for Alice Newman, starting 10/03/1922, ending 10/03/2022",
+>>>>>>> f52826e (Updating chirp ccda and test data)
                 "confidentiality": "N",
                 "event": [
                     {
                         "period": {
+<<<<<<< HEAD
                             "start": "1922-09-13"
+=======
+                            "start": "1922-10-03"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                         }
                     }
                 ],
@@ -50,11 +66,19 @@
                         "mode": "snapshot",
                         "entry": [
                             {
+<<<<<<< HEAD
                                 "reference": "AllergyIntolerance/a85d37ed-02d1-35cb-b467-8921d1daaa04",
                                 "display": "Ampicillin"
                             },
                             {
                                 "reference": "AllergyIntolerance/828cda21-ab29-33b9-9f0c-872a83302583",
+=======
+                                "reference": "AllergyIntolerance/d6123928-edf0-378c-8793-a86130721417",
+                                "display": "Ampicillin"
+                            },
+                            {
+                                "reference": "AllergyIntolerance/24c2f1c6-18e3-3636-90ee-2abedb24d96b",
+>>>>>>> f52826e (Updating chirp ccda and test data)
                                 "display": "Penicillin G benzathine"
                             }
                         ]
@@ -94,7 +118,11 @@
                         "mode": "snapshot",
                         "entry": [
                             {
+<<<<<<< HEAD
                                 "reference": "Encounter/f8ee92dd-c2bf-3637-8a82-561281c11e10"
+=======
+                                "reference": "Encounter/dcbb3e26-5ce0-3963-93dc-76bdc51dcf10"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                             }
                         ]
                     },
@@ -167,6 +195,7 @@
                         "mode": "snapshot",
                         "entry": [
                             {
+<<<<<<< HEAD
                                 "reference": "Immunization/5c498cd1-ae4b-38af-adb7-e4030980f7c2"
                             },
                             {
@@ -174,6 +203,15 @@
                             },
                             {
                                 "reference": "Immunization/f6c49272-7f1e-3df9-a0e1-1f595c03c04b"
+=======
+                                "reference": "Immunization/577d425c-0f33-38c6-a562-1b4c08fb39a5"
+                            },
+                            {
+                                "reference": "Immunization/312f631f-72de-3160-8ed8-542ab88e0ae8"
+                            },
+                            {
+                                "reference": "Immunization/dc04c454-6fd6-3ce3-a46a-c93d23b41d7c"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                             }
                         ]
                     },
@@ -217,6 +255,7 @@
                         "mode": "snapshot",
                         "entry": [
                             {
+<<<<<<< HEAD
                                 "reference": "MedicationStatement/89780f2d-e67c-3980-9e75-35962cd2096f"
                             },
                             {
@@ -227,6 +266,18 @@
                             },
                             {
                                 "reference": "MedicationStatement/80d62691-bdf6-36c6-99fb-0b977f70f9b1"
+=======
+                                "reference": "MedicationStatement/09ac6113-70a7-3974-9b2c-4ae641ef8013"
+                            },
+                            {
+                                "reference": "MedicationStatement/bcf0e6fc-eade-3c29-902f-2c18f02689a5"
+                            },
+                            {
+                                "reference": "MedicationStatement/d7645d10-dc2f-389e-9ad6-23c8db53d3c9"
+                            },
+                            {
+                                "reference": "MedicationStatement/4f39f8d9-197d-36dd-a54d-15cc9ff2bc8e"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                             }
                         ]
                     },
@@ -265,7 +316,11 @@
                         "mode": "snapshot",
                         "entry": [
                             {
+<<<<<<< HEAD
                                 "reference": "CarePlan/2fb71bf7-9782-325b-b71c-dd70049fd5ac"
+=======
+                                "reference": "CarePlan/eeb2b07e-f707-3487-a80a-81dccb362755"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                             }
                         ]
                     },
@@ -287,6 +342,7 @@
                         "mode": "snapshot",
                         "entry": [
                             {
+<<<<<<< HEAD
                                 "reference": "Condition/ef08f42c-d553-3900-8fb7-e0ed76737108"
                             },
                             {
@@ -300,6 +356,21 @@
                             },
                             {
                                 "reference": "Condition/b0a94e02-8e23-3ab5-a7d9-08204f7dfb7d"
+=======
+                                "reference": "Condition/594e7fda-3975-3bec-94e1-5f5643d50a2c"
+                            },
+                            {
+                                "reference": "Condition/417105dd-2b8d-3b7b-aa22-3f293c026e31"
+                            },
+                            {
+                                "reference": "Condition/0c82beaf-6e16-3825-88f8-6802c4ff3caf"
+                            },
+                            {
+                                "reference": "Condition/37e03c19-e4aa-3a03-ada0-1cba1b435da4"
+                            },
+                            {
+                                "reference": "Condition/1353a164-4d50-3390-8d4e-229ff52ffa83"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                             }
                         ]
                     },
@@ -346,10 +417,17 @@
                         "mode": "snapshot",
                         "entry": [
                             {
+<<<<<<< HEAD
                                 "reference": "DiagnosticReport/f181c343-ee24-3147-b096-5f780f27ba01"
                             },
                             {
                                 "reference": "DiagnosticReport/fdabab93-4f09-33ad-b9b8-0d5d68b3d265"
+=======
+                                "reference": "DiagnosticReport/b217bc60-b44f-39a0-8f6b-041115b9e494"
+                            },
+                            {
+                                "reference": "DiagnosticReport/3f6fa961-f29d-323c-a815-1b87b77edf67"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                             }
                         ]
                     },
@@ -484,7 +562,11 @@
             },
             "request": {
                 "method": "PUT",
+<<<<<<< HEAD
                 "url": "Composition/36ac5684-5958-3f6b-91f6-0887abb24a10"
+=======
+                "url": "Composition/ca59563a-05b8-34a0-8a18-ec8bc3a62cb3"
+>>>>>>> f52826e (Updating chirp ccda and test data)
             }
         },
         {
@@ -546,6 +628,12 @@
                         "given": [
                             "Albert"
                         ]
+                    },
+                    {
+                        "family": "Zelaznik",
+                        "given": [
+                            "Steve"
+                        ]
                     }
                 ],
                 "address": [
@@ -564,6 +652,11 @@
                         "system": "phone",
                         "value": "555-555-1002",
                         "use": "work"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "UNK",
+                        "use": "work"
                     }
                 ],
                 "qualification": [
@@ -574,6 +667,15 @@
                                     "code": "200000000X",
                                     "display": "Neighborhood Physicians Practice",
                                     "system": "http://nucc.org/provider-taxonomy"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "UNK"
                                 }
                             ]
                         }
@@ -886,6 +988,7 @@
             }
         },
         {
+<<<<<<< HEAD
             "fullUrl": "urn:uuid:b3f2aefb-195f-32d6-b0e2-9a5a578e18ac",
             "resource": {
                 "resourceType": "AllergyIntolerance",
@@ -894,6 +997,16 @@
                     {
                         "system": "urn:ietf:rfc:3986",
                         "value": "urn:uuid:86435039-14de-4a68-a1b3-ba83f87d5bba"
+=======
+            "fullUrl": "urn:uuid:9572f410-fdac-3230-93ec-a8350f620cf6",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "9572f410-fdac-3230-93ec-a8350f620cf6",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:817dad25-702b-4ca2-815e-fb5fe1aa595f"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                     }
                 ],
                 "clinicalStatus": {
@@ -953,6 +1066,7 @@
             },
             "request": {
                 "method": "PUT",
+<<<<<<< HEAD
                 "url": "AllergyIntolerance/b3f2aefb-195f-32d6-b0e2-9a5a578e18ac"
             }
         },
@@ -965,6 +1079,20 @@
                     {
                         "system": "urn:ietf:rfc:3986",
                         "value": "urn:uuid:d3808384-6189-44ff-a2ab-b13a16af1da4"
+=======
+                "url": "AllergyIntolerance/9572f410-fdac-3230-93ec-a8350f620cf6"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:50aaff2b-b6da-369f-9590-5126eeffa3df",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "50aaff2b-b6da-369f-9590-5126eeffa3df",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:75f43cd1-2fa4-46ac-887e-0d2025f7fa32"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                     }
                 ],
                 "clinicalStatus": {
@@ -1024,6 +1152,7 @@
             },
             "request": {
                 "method": "PUT",
+<<<<<<< HEAD
                 "url": "AllergyIntolerance/1eb2c602-edbb-3651-b24b-fab1f6baaa37"
             }
         },
@@ -1036,6 +1165,20 @@
                     {
                         "system": "urn:ietf:rfc:3986",
                         "value": "urn:uuid:7d28c1ed-481c-46ea-afd4-bfad68bde799"
+=======
+                "url": "AllergyIntolerance/50aaff2b-b6da-369f-9590-5126eeffa3df"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:f0c18d48-aea1-380e-a1e3-2f193b96f7f4",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "f0c18d48-aea1-380e-a1e3-2f193b96f7f4",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:df3b2345-2705-4ccf-aa05-f54b9046da30"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                     }
                 ],
                 "status": "active",
@@ -1063,7 +1206,11 @@
             },
             "request": {
                 "method": "PUT",
+<<<<<<< HEAD
                 "url": "MedicationStatement/0cc6ea26-0e43-3358-b5b9-2e192fcc3c6f"
+=======
+                "url": "MedicationStatement/f0c18d48-aea1-380e-a1e3-2f193b96f7f4"
+>>>>>>> f52826e (Updating chirp ccda and test data)
             }
         },
         {
@@ -1087,6 +1234,7 @@
             }
         },
         {
+<<<<<<< HEAD
             "fullUrl": "urn:uuid:b9b54f80-e993-3029-b101-337462322fdf",
             "resource": {
                 "resourceType": "MedicationRequest",
@@ -1095,6 +1243,44 @@
                     {
                         "system": "urn:ietf:rfc:3986",
                         "value": "urn:uuid:7d28c1ed-481c-46ea-afd4-bfad68bde799"
+=======
+            "fullUrl": "urn:uuid:ef305331-1af2-330c-ace1-2927e0be0a74",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "ef305331-1af2-330c-ace1-2927e0be0a74",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:aaaa9544-24fe-435a-a2fb-4a82b55988b5"
+                    }
+                ],
+                "intent": "order",
+                "status": "active",
+                "subject": {
+                    "reference": "Patient/f40da2df-7505-315a-9acb-55513a02c37b"
+                },
+                "medicationReference": {
+                    "reference": "Medication/a6491cac-c1ee-3c02-a78e-063c467a9350"
+                },
+                "requester": {
+                    "reference": "Practitioner/5942c17c-61a6-351b-a314-39fb9fc72561"
+                }
+            },
+            "request": {
+                "method": "PUT",
+                "url": "MedicationRequest/ef305331-1af2-330c-ace1-2927e0be0a74"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:b9121804-1ef1-3b86-9983-c1731f59f60f",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "b9121804-1ef1-3b86-9983-c1731f59f60f",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:18910da5-a09f-45f7-9188-16052cf7f799"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                     }
                 ],
                 "intent": "order",
@@ -1117,14 +1303,19 @@
                     "reference": "Patient/f40da2df-7505-315a-9acb-55513a02c37b"
                 },
                 "medicationReference": {
+<<<<<<< HEAD
                     "reference": "Medication/a6491cac-c1ee-3c02-a78e-063c467a9350"
                 },
                 "requester": {
                     "reference": "Practitioner/77feb0a0-c8a6-342a-98da-5b3375442250"
+=======
+                    "reference": "Medication/3a5b2405-cbc2-3370-a18d-a4c96b12a816"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                 }
             },
             "request": {
                 "method": "PUT",
+<<<<<<< HEAD
                 "url": "MedicationRequest/b9b54f80-e993-3029-b101-337462322fdf"
             }
         },
@@ -1216,6 +1407,12 @@
             }
         },
         {
+=======
+                "url": "MedicationStatement/b9121804-1ef1-3b86-9983-c1731f59f60f"
+            }
+        },
+        {
+>>>>>>> f52826e (Updating chirp ccda and test data)
             "fullUrl": "urn:uuid:3a5b2405-cbc2-3370-a18d-a4c96b12a816",
             "resource": {
                 "resourceType": "Medication",
@@ -1236,6 +1433,7 @@
             }
         },
         {
+<<<<<<< HEAD
             "fullUrl": "urn:uuid:adfd3ece-08e8-3f5d-9772-8f51192a9fc0",
             "resource": {
                 "resourceType": "MedicationRequest",
@@ -1286,6 +1484,16 @@
                     {
                         "system": "urn:ietf:rfc:3986",
                         "value": "urn:uuid:7c490f66-143a-45cf-ad59-31b8d3943bbb"
+=======
+            "fullUrl": "urn:uuid:8484a16c-cc6b-3ff6-b5f3-da8bad64be5d",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "8484a16c-cc6b-3ff6-b5f3-da8bad64be5d",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:b0a4f905-84a4-44b5-b892-9354243a3a53"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                     }
                 ],
                 "status": "active",
@@ -1313,7 +1521,11 @@
             },
             "request": {
                 "method": "PUT",
+<<<<<<< HEAD
                 "url": "MedicationStatement/e9491721-dc0d-39fa-b52a-2cee89997404"
+=======
+                "url": "MedicationStatement/8484a16c-cc6b-3ff6-b5f3-da8bad64be5d"
+>>>>>>> f52826e (Updating chirp ccda and test data)
             }
         },
         {
@@ -1337,6 +1549,7 @@
             }
         },
         {
+<<<<<<< HEAD
             "fullUrl": "urn:uuid:cb4aea78-8bd4-3950-b16a-32bd803b3e13",
             "resource": {
                 "resourceType": "MedicationRequest",
@@ -1345,13 +1558,58 @@
                     {
                         "system": "urn:ietf:rfc:3986",
                         "value": "urn:uuid:7c490f66-143a-45cf-ad59-31b8d3943bbb"
+=======
+            "fullUrl": "urn:uuid:d15e9dbb-4423-3e9a-bd24-928eb45e4786",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "d15e9dbb-4423-3e9a-bd24-928eb45e4786",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:e5652e14-e637-412f-960c-715bb29e9151"
                     }
                 ],
                 "intent": "order",
                 "status": "active",
+                "subject": {
+                    "reference": "Patient/f40da2df-7505-315a-9acb-55513a02c37b"
+                },
+                "medicationReference": {
+                    "reference": "Medication/0ca58338-80c4-3637-8f7f-2ad7a174d09c"
+                },
+                "requester": {
+                    "reference": "Practitioner/5942c17c-61a6-351b-a314-39fb9fc72561"
+                }
+            },
+            "request": {
+                "method": "PUT",
+                "url": "MedicationRequest/d15e9dbb-4423-3e9a-bd24-928eb45e4786"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:ed172dcb-2e2b-36ac-a99c-39f44a6b494a",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "ed172dcb-2e2b-36ac-a99c-39f44a6b494a",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:59089d3d-951c-416a-a5e5-3e202684bf8a"
+>>>>>>> f52826e (Updating chirp ccda and test data)
+                    }
+                ],
+                "intent": "order",
+                "status": "active",
+<<<<<<< HEAD
                 "reportedBoolean": false,
                 "authoredOn": "2015-06-22",
                 "dosageInstruction": [
+=======
+                "effectivePeriod": {
+                    "start": "2015-06-22"
+                },
+                "dosage": [
+>>>>>>> f52826e (Updating chirp ccda and test data)
                     {
                         "text": "Inject 1 unit twice a day as directed",
                         "doseAndRate": [
@@ -1367,14 +1625,19 @@
                     "reference": "Patient/f40da2df-7505-315a-9acb-55513a02c37b"
                 },
                 "medicationReference": {
+<<<<<<< HEAD
                     "reference": "Medication/0ca58338-80c4-3637-8f7f-2ad7a174d09c"
                 },
                 "requester": {
                     "reference": "Practitioner/77feb0a0-c8a6-342a-98da-5b3375442250"
+=======
+                    "reference": "Medication/f1bf406b-00cb-333d-bfe9-1c9e0a070162"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                 }
             },
             "request": {
                 "method": "PUT",
+<<<<<<< HEAD
                 "url": "MedicationRequest/cb4aea78-8bd4-3950-b16a-32bd803b3e13"
             }
         },
@@ -1418,6 +1681,12 @@
             }
         },
         {
+=======
+                "url": "MedicationStatement/ed172dcb-2e2b-36ac-a99c-39f44a6b494a"
+            }
+        },
+        {
+>>>>>>> f52826e (Updating chirp ccda and test data)
             "fullUrl": "urn:uuid:f1bf406b-00cb-333d-bfe9-1c9e0a070162",
             "resource": {
                 "resourceType": "Medication",
@@ -1438,6 +1707,7 @@
             }
         },
         {
+<<<<<<< HEAD
             "fullUrl": "urn:uuid:137682de-d9a4-300b-b5e3-f00704030ae4",
             "resource": {
                 "resourceType": "MedicationRequest",
@@ -1446,10 +1716,21 @@
                     {
                         "system": "urn:ietf:rfc:3986",
                         "value": "urn:uuid:5ca79117-a697-48d8-b2a0-f952a16c1445"
+=======
+            "fullUrl": "urn:uuid:448da1b8-011f-348e-a142-1fc6982c9bfa",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "448da1b8-011f-348e-a142-1fc6982c9bfa",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:5529bd52-2923-4599-9938-35864a343985"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                     }
                 ],
                 "intent": "order",
                 "status": "active",
+<<<<<<< HEAD
                 "reportedBoolean": false,
                 "authoredOn": "2015-06-22",
                 "dosageInstruction": [
@@ -1464,6 +1745,8 @@
                         ]
                     }
                 ],
+=======
+>>>>>>> f52826e (Updating chirp ccda and test data)
                 "subject": {
                     "reference": "Patient/f40da2df-7505-315a-9acb-55513a02c37b"
                 },
@@ -1471,12 +1754,20 @@
                     "reference": "Medication/f1bf406b-00cb-333d-bfe9-1c9e0a070162"
                 },
                 "requester": {
+<<<<<<< HEAD
                     "reference": "Practitioner/77feb0a0-c8a6-342a-98da-5b3375442250"
+=======
+                    "reference": "Practitioner/5942c17c-61a6-351b-a314-39fb9fc72561"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                 }
             },
             "request": {
                 "method": "PUT",
+<<<<<<< HEAD
                 "url": "MedicationRequest/137682de-d9a4-300b-b5e3-f00704030ae4"
+=======
+                "url": "MedicationRequest/448da1b8-011f-348e-a142-1fc6982c9bfa"
+>>>>>>> f52826e (Updating chirp ccda and test data)
             }
         },
         {
@@ -1785,14 +2076,15 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:7d5d0ed3-19c9-3354-a6e6-32a7463b6fc5",
+            "value": "urn:uuid:7a524868-ad81-46ad-b1e1-44683737fd48",
+            "fullUrl": "urn:uuid:c157972c-3f43-31c5-96d5-56033422fd2e",
             "resource": {
                 "resourceType": "DiagnosticReport",
-                "id": "7d5d0ed3-19c9-3354-a6e6-32a7463b6fc5",
+                "id": "c157972c-3f43-31c5-96d5-56033422fd2e",
                 "identifier": [
                     {
                         "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:7a524868-ad81-46ad-b1e1-44683737fd48"
+                        "value": "urn:uuid:ab54928c-e628-4448-9ba0-e567e5608025"
                     }
                 ],
                 "status": "final",
@@ -1846,6 +2138,25 @@
                     },
                     {
                         "reference": "Observation/af895761-6bc9-3245-ba3f-6cd429564e63"
+
+                    },
+                    {
+                        "reference": "Observation/b55476ac-4fad-338c-8e30-00cf9a4433c6"
+                    },
+                    {
+                        "reference": "Observation/4f4cd24d-2d25-374f-84aa-130e3d61e52b"
+                    },
+                    {
+                        "reference": "Observation/8d592be0-0e26-3796-8b4e-54305cc72c4b"
+                    },
+                    {
+                        "reference": "Observation/ca5e5f9a-73ed-330e-97b0-36701e8e5433"
+                    },
+                    {
+                        "reference": "Observation/40c76684-a36d-3d8e-9ea5-a0eacbd57795"
+                    },
+                    {
+                        "reference": "Observation/39cbc15d-d5e1-3192-9dbe-f21ae5009b27"
                     }
                 ]
             },
@@ -1856,6 +2167,11 @@
         },
         {
             "fullUrl": "urn:uuid:474c23f7-5c54-3967-8354-5104e061e5ef",
+                "url": "DiagnosticReport/c157972c-3f43-31c5-96d5-56033422fd2e"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:5ebaa859-d9c3-39cf-932b-f7737676fd61",
             "resource": {
                 "resourceType": "Observation",
                 "meta": {
@@ -1863,11 +2179,11 @@
                         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
                     ]
                 },
-                "id": "474c23f7-5c54-3967-8354-5104e061e5ef",
+                "id": "5ebaa859-d9c3-39cf-932b-f7737676fd61",
                 "identifier": [
                     {
                         "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:57dc4f19-ebc3-40d4-a66f-eb991d999aed"
+                        "value": "urn:uuid:5df0c952-7c46-43fc-997d-37644c1b7995"
                     }
                 ],
                 "category": [
@@ -1904,6 +2220,11 @@
         },
         {
             "fullUrl": "urn:uuid:73451e5f-b774-3469-bbbb-24b6b298d0ed",
+                "url": "Observation/5ebaa859-d9c3-39cf-932b-f7737676fd61"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:b55476ac-4fad-338c-8e30-00cf9a4433c6",
             "resource": {
                 "resourceType": "Observation",
                 "meta": {
@@ -1911,11 +2232,11 @@
                         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
                     ]
                 },
-                "id": "73451e5f-b774-3469-bbbb-24b6b298d0ed",
+                "id": "b55476ac-4fad-338c-8e30-00cf9a4433c6",
                 "identifier": [
                     {
                         "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:518a6963-15d9-416d-be89-4f3b8f05ddcf"
+                        "value": "urn:uuid:66718ee6-5769-4ea8-9af3-b659345ec1ec"
                     }
                 ],
                 "category": [
@@ -1952,6 +2273,11 @@
         },
         {
             "fullUrl": "urn:uuid:0dd96569-6f26-3f70-abe3-c82632906163",
+                "url": "Observation/b55476ac-4fad-338c-8e30-00cf9a4433c6"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:4f4cd24d-2d25-374f-84aa-130e3d61e52b",
             "resource": {
                 "resourceType": "Observation",
                 "meta": {
@@ -1959,11 +2285,11 @@
                         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
                     ]
                 },
-                "id": "0dd96569-6f26-3f70-abe3-c82632906163",
+                "id": "4f4cd24d-2d25-374f-84aa-130e3d61e52b",
                 "identifier": [
                     {
                         "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:dda358ef-b099-4f95-b03a-0f9a03bcb91d"
+                        "value": "urn:uuid:7929f213-ac56-43fd-941c-4254055f4b30"
                     }
                 ],
                 "category": [
@@ -2017,6 +2343,11 @@
         },
         {
             "fullUrl": "urn:uuid:45a4e85e-fb2a-3007-bd38-047e4a981189",
+                "url": "Observation/4f4cd24d-2d25-374f-84aa-130e3d61e52b"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:8d592be0-0e26-3796-8b4e-54305cc72c4b",
             "resource": {
                 "resourceType": "Observation",
                 "meta": {
@@ -2024,11 +2355,11 @@
                         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
                     ]
                 },
-                "id": "45a4e85e-fb2a-3007-bd38-047e4a981189",
+                "id": "8d592be0-0e26-3796-8b4e-54305cc72c4b",
                 "identifier": [
                     {
                         "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:0cd60735-cffd-44c7-afc5-5965199ea650"
+                        "value": "urn:uuid:7e822e19-32f4-425c-8c17-a81840894182"
                     }
                 ],
                 "category": [
@@ -2082,6 +2413,11 @@
         },
         {
             "fullUrl": "urn:uuid:58ade1e5-a5fb-35e5-8af6-008d7d86d833",
+                "url": "Observation/8d592be0-0e26-3796-8b4e-54305cc72c4b"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:ca5e5f9a-73ed-330e-97b0-36701e8e5433",
             "resource": {
                 "resourceType": "Observation",
                 "meta": {
@@ -2093,7 +2429,7 @@
                 "identifier": [
                     {
                         "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:998e81a2-1a1f-4e97-83d4-e2d1e1f51270"
+                        "value": "urn:uuid:7ed12105-2e8d-4787-9f1e-033e41aad7d1"
                     }
                 ],
                 "category": [
@@ -2135,6 +2471,11 @@
         },
         {
             "fullUrl": "urn:uuid:59c8c057-7173-3b95-8b54-08e290ef9ad2",
+                "url": "Observation/ca5e5f9a-73ed-330e-97b0-36701e8e5433"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:40c76684-a36d-3d8e-9ea5-a0eacbd57795",
             "resource": {
                 "resourceType": "Observation",
                 "meta": {
@@ -2142,11 +2483,11 @@
                         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
                     ]
                 },
-                "id": "59c8c057-7173-3b95-8b54-08e290ef9ad2",
+                "id": "40c76684-a36d-3d8e-9ea5-a0eacbd57795",
                 "identifier": [
                     {
                         "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:4f9fdcfc-7b8e-4ba5-8634-166cbb87b384"
+                        "value": "urn:uuid:32df0627-c681-4fd1-b994-00b298bdcc7c"
                     }
                 ],
                 "category": [
@@ -2183,6 +2524,11 @@
         },
         {
             "fullUrl": "urn:uuid:af895761-6bc9-3245-ba3f-6cd429564e63",
+                "url": "Observation/40c76684-a36d-3d8e-9ea5-a0eacbd57795"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:39cbc15d-d5e1-3192-9dbe-f21ae5009b27",
             "resource": {
                 "resourceType": "Observation",
                 "meta": {
@@ -2195,6 +2541,12 @@
                     {
                         "system": "urn:ietf:rfc:3986",
                         "value": "urn:uuid:cdc44d11-63ce-467b-8515-75ef1d0f7c2a"
+                    }],
+                "id": "39cbc15d-d5e1-3192-9dbe-f21ae5009b27",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:5f9f1ee4-3a83-47da-8146-41b148b7cc49"
                     }
                 ],
                 "category": [
@@ -2242,7 +2594,19 @@
                 "identifier": [
                     {
                         "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:e727870a-cd33-44f0-ac1e-562c34049597"
+                        "value": "urn:uuid:e727870a-cd33-44f0-ac1e-562c34049597"}],
+                "url": "Observation/39cbc15d-d5e1-3192-9dbe-f21ae5009b27"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:21573d74-ee0b-317d-abdc-cbfa36a5c3c3",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "id": "21573d74-ee0b-317d-abdc-cbfa36a5c3c3",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:e901f9d3-4baa-474d-9e81-2203b01a7293"
                     }
                 ],
                 "status": "final",
@@ -2288,6 +2652,11 @@
         },
         {
             "fullUrl": "urn:uuid:45b94f1b-1106-3547-9aeb-64879fddb3b6",
+                "url": "DiagnosticReport/21573d74-ee0b-317d-abdc-cbfa36a5c3c3"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:28d07a6b-4398-3a1f-9523-f8dc3eb40972",
             "resource": {
                 "resourceType": "Observation",
                 "meta": {
@@ -3336,10 +3705,17 @@
             }
         },
         {
+<<<<<<< HEAD
             "fullUrl": "urn:uuid:be062b99-7b2a-392a-a967-145233bc6d31",
             "resource": {
                 "resourceType": "CarePlan",
                 "id": "be062b99-7b2a-392a-a967-145233bc6d31",
+=======
+            "fullUrl": "urn:uuid:ed35345a-6979-3ff3-ba9f-e9ba92da9d96",
+            "resource": {
+                "resourceType": "CarePlan",
+                "id": "ed35345a-6979-3ff3-ba9f-e9ba92da9d96",
+>>>>>>> f52826e (Updating chirp ccda and test data)
                 "text": {
                     "status": "additional",
                     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><list>\n  <item>\n    Urinalysis macro (dipstick) panel | Date: 6/29/15\n    <ID>PlannedObservation2dab4f8583ce44848069b18556d1c183</ID>\n  </item>\n  <item>\n    i. Get an EKG done on 6/23/2015.ii. Get a Chest X-ray done on 6/23/2015 showing the Lower Respiratory TractStructure.iii. Take Clindamycin 300mg three times a day as needed if pain does not subside/iv. Schedule follow on visit with Neighborhood Physicians Practice on7/1/2015.\n    <ID>PlannedObservation7a8da4f2-b8e1-439f-a8dd-40091dd88452</ID>\n  </item>\n</list></div>"
@@ -3365,6 +3741,7 @@
             },
             "request": {
                 "method": "PUT",
+<<<<<<< HEAD
                 "url": "CarePlan/be062b99-7b2a-392a-a967-145233bc6d31"
             }
         },
@@ -3373,6 +3750,16 @@
             "resource": {
                 "resourceType": "Encounter",
                 "id": "f8ee92dd-c2bf-3637-8a82-561281c11e10",
+=======
+                "url": "CarePlan/ed35345a-6979-3ff3-ba9f-e9ba92da9d96"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:dcbb3e26-5ce0-3963-93dc-76bdc51dcf10",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "dcbb3e26-5ce0-3963-93dc-76bdc51dcf10",
+>>>>>>> f52826e (Updating chirp ccda and test data)
                 "status": "finished",
                 "class": {
                     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -3403,7 +3790,11 @@
                 "identifier": [
                     {
                         "system": "urn:ietf:rfc:3986",
+<<<<<<< HEAD
                         "value": "urn:uuid:08530ab8-c1ab-43ca-b6a4-414191a026b2"
+=======
+                        "value": "urn:uuid:07a06b49-d05d-43df-8413-6f8e6278db5e"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                     }
                 ],
                 "period": {
@@ -3443,13 +3834,18 @@
                 "diagnosis": [
                     {
                         "condition": {
+<<<<<<< HEAD
                             "reference": "Condition/719d3ca8-5250-37e2-aaa1-9bf1b067270b"
+=======
+                            "reference": "Condition/40e113e9-224a-30d7-840a-a7c649abc527"
+>>>>>>> f52826e (Updating chirp ccda and test data)
                         }
                     }
                 ]
             },
             "request": {
                 "method": "PUT",
+<<<<<<< HEAD
                 "url": "Encounter/f8ee92dd-c2bf-3637-8a82-561281c11e10"
             }
         },
@@ -3462,6 +3858,19 @@
                     {
                         "system": "urn:ietf:rfc:3986",
                         "value": "urn:uuid:514289c3-876d-4c31-9f97-91145887e117"
+                    }],
+                "url": "Encounter/dcbb3e26-5ce0-3963-93dc-76bdc51dcf10"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:40e113e9-224a-30d7-840a-a7c649abc527",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "40e113e9-224a-30d7-840a-a7c649abc527",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:2692ef6f-3730-4f77-ba75-48478128f356"
                     }
                 ],
                 "verificationStatus": {
@@ -3523,6 +3932,18 @@
                     {
                         "system": "urn:ietf:rfc:3986",
                         "value": "urn:uuid:d653ee73-a871-4751-954a-c22c8e368a5e"
+                "url": "Condition/40e113e9-224a-30d7-840a-a7c649abc527"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:577d425c-0f33-38c6-a562-1b4c08fb39a5",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "577d425c-0f33-38c6-a562-1b4c08fb39a5",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:80547fa5-2d3c-4962-94fb-2e20aa347356"
                     }
                 ],
                 "occurrenceDateTime": "2021-01-28T05:00:00.000Z",
@@ -3573,6 +3994,19 @@
                     {
                         "system": "urn:ietf:rfc:3986",
                         "value": "urn:uuid:e619e69c-e973-4ac4-b5af-c5e57a79970a"
+                    }],
+                "url": "Immunization/577d425c-0f33-38c6-a562-1b4c08fb39a5"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:312f631f-72de-3160-8ed8-542ab88e0ae8",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "312f631f-72de-3160-8ed8-542ab88e0ae8",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:e220e106-1c42-4d2d-b501-f09a0752e435"
                     }
                 ],
                 "occurrenceDateTime": "2015-06-22T04:00:00.000Z",
@@ -3613,6 +4047,18 @@
                     {
                         "system": "urn:ietf:rfc:3986",
                         "value": "urn:uuid:f9a42007-d22a-4b5f-8d90-2633d78e390f"
+                "url": "Immunization/312f631f-72de-3160-8ed8-542ab88e0ae8"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:dc04c454-6fd6-3ce3-a46a-c93d23b41d7c",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "dc04c454-6fd6-3ce3-a46a-c93d23b41d7c",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:5d320f8c-504f-4cb8-8d01-de098f406b05"
                     }
                 ],
                 "occurrenceDateTime": "2012-01-04T06:00:00.000Z",
@@ -3684,16 +4130,14 @@
             }
         },
         {
-<<<<<<< HEAD
             "fullUrl": "urn:uuid:f492aca3-d0d0-38d8-9c12-18230388219d",
             "resource": {
                 "resourceType": "DocumentReference",
                 "id": "f492aca3-d0d0-38d8-9c12-18230388219d",
-=======
             "fullUrl": "urn:uuid:fbc12212-d6a5-36d8-89e0-c4fe753c11fd",
             "resource": {
                 "resourceType": "Goal",
-                "id": "fbc12212-d6a5-36d8-89e0-c4fe753c11fd",
+                "id": "8ce55388-9d68-3702-9064-be0267bb6e3d",
                 "description": {
                     "coding": [
                         {
@@ -3706,7 +4150,7 @@
                 "lifecycleStatus": "active",
                 "target": [
                     {
-                        "dueDate": "2022-01-28"
+                        "dueDate": "2020-09-28"
                     }
                 ],
                 "subject": {
@@ -3715,15 +4159,14 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "Goal/fbc12212-d6a5-36d8-89e0-c4fe753c11fd"
+                "url": "Goal/8ce55388-9d68-3702-9064-be0267bb6e3d"
             }
         },
         {
-            "fullUrl": "urn:uuid:a42801d5-5fec-3413-b5f9-effae48931fe",
+            "fullUrl": "urn:uuid:eb30dadc-ba72-3c05-b932-0639ae844eef",
             "resource": {
                 "resourceType": "DocumentReference",
                 "id": "a42801d5-5fec-3413-b5f9-effae48931fe",
->>>>>>> be9f648 (Fixing goal resource)
                 "type": {
                     "coding": [
                         {
