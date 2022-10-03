@@ -3,17 +3,10 @@
     "type": "batch",
     "entry": [
         {
-<<<<<<< HEAD
-            "fullUrl": "urn:uuid:36ac5684-5958-3f6b-91f6-0887abb24a10",
-            "resource": {
-                "resourceType": "Composition",
-                "id": "36ac5684-5958-3f6b-91f6-0887abb24a10",
-=======
             "fullUrl": "urn:uuid:ca59563a-05b8-34a0-8a18-ec8bc3a62cb3",
             "resource": {
                 "resourceType": "Composition",
                 "id": "ca59563a-05b8-34a0-8a18-ec8bc3a62cb3",
->>>>>>> f52826e (Updating chirp ccda and test data)
                 "identifier": {
                     "use": "official",
                     "value": "TT101"
@@ -28,22 +21,13 @@
                         }
                     ]
                 },
-<<<<<<< HEAD
-                "date": "2022-09-13T21:23:45.000Z",
-                "title": "Data for Alice Newman, starting 09/13/1922, ending 09/13/2022",
-=======
                 "date": "2022-10-03T18:59:31.000Z",
                 "title": "Data for Alice Newman, starting 10/03/1922, ending 10/03/2022",
->>>>>>> f52826e (Updating chirp ccda and test data)
                 "confidentiality": "N",
                 "event": [
                     {
                         "period": {
-<<<<<<< HEAD
-                            "start": "1922-09-13"
-=======
                             "start": "1922-10-03"
->>>>>>> f52826e (Updating chirp ccda and test data)
                         }
                     }
                 ],
@@ -66,19 +50,11 @@
                         "mode": "snapshot",
                         "entry": [
                             {
-<<<<<<< HEAD
-                                "reference": "AllergyIntolerance/a85d37ed-02d1-35cb-b467-8921d1daaa04",
-                                "display": "Ampicillin"
-                            },
-                            {
-                                "reference": "AllergyIntolerance/828cda21-ab29-33b9-9f0c-872a83302583",
-=======
                                 "reference": "AllergyIntolerance/d6123928-edf0-378c-8793-a86130721417",
                                 "display": "Ampicillin"
                             },
                             {
                                 "reference": "AllergyIntolerance/24c2f1c6-18e3-3636-90ee-2abedb24d96b",
->>>>>>> f52826e (Updating chirp ccda and test data)
                                 "display": "Penicillin G benzathine"
                             }
                         ]
@@ -118,11 +94,7 @@
                         "mode": "snapshot",
                         "entry": [
                             {
-<<<<<<< HEAD
-                                "reference": "Encounter/f8ee92dd-c2bf-3637-8a82-561281c11e10"
-=======
                                 "reference": "Encounter/dcbb3e26-5ce0-3963-93dc-76bdc51dcf10"
->>>>>>> f52826e (Updating chirp ccda and test data)
                             }
                         ]
                     },
@@ -195,15 +167,6 @@
                         "mode": "snapshot",
                         "entry": [
                             {
-<<<<<<< HEAD
-                                "reference": "Immunization/5c498cd1-ae4b-38af-adb7-e4030980f7c2"
-                            },
-                            {
-                                "reference": "Immunization/106df703-9ebe-31b4-bc31-fee9a6373294"
-                            },
-                            {
-                                "reference": "Immunization/f6c49272-7f1e-3df9-a0e1-1f595c03c04b"
-=======
                                 "reference": "Immunization/577d425c-0f33-38c6-a562-1b4c08fb39a5"
                             },
                             {
@@ -211,7 +174,6 @@
                             },
                             {
                                 "reference": "Immunization/dc04c454-6fd6-3ce3-a46a-c93d23b41d7c"
->>>>>>> f52826e (Updating chirp ccda and test data)
                             }
                         ]
                     },
@@ -255,18 +217,6 @@
                         "mode": "snapshot",
                         "entry": [
                             {
-<<<<<<< HEAD
-                                "reference": "MedicationStatement/89780f2d-e67c-3980-9e75-35962cd2096f"
-                            },
-                            {
-                                "reference": "MedicationStatement/7a583759-2b9e-301a-a70a-d6ff335c36b4"
-                            },
-                            {
-                                "reference": "MedicationStatement/9e01f645-4f73-37b7-a7ae-e2c327ba493e"
-                            },
-                            {
-                                "reference": "MedicationStatement/80d62691-bdf6-36c6-99fb-0b977f70f9b1"
-=======
                                 "reference": "MedicationStatement/09ac6113-70a7-3974-9b2c-4ae641ef8013"
                             },
                             {
@@ -277,7 +227,6 @@
                             },
                             {
                                 "reference": "MedicationStatement/4f39f8d9-197d-36dd-a54d-15cc9ff2bc8e"
->>>>>>> f52826e (Updating chirp ccda and test data)
                             }
                         ]
                     },
@@ -316,11 +265,7 @@
                         "mode": "snapshot",
                         "entry": [
                             {
-<<<<<<< HEAD
-                                "reference": "CarePlan/2fb71bf7-9782-325b-b71c-dd70049fd5ac"
-=======
                                 "reference": "CarePlan/eeb2b07e-f707-3487-a80a-81dccb362755"
->>>>>>> f52826e (Updating chirp ccda and test data)
                             }
                         ]
                     },
@@ -342,21 +287,6 @@
                         "mode": "snapshot",
                         "entry": [
                             {
-<<<<<<< HEAD
-                                "reference": "Condition/ef08f42c-d553-3900-8fb7-e0ed76737108"
-                            },
-                            {
-                                "reference": "Condition/44e3f09b-b749-3df5-9d08-24d4c859ee81"
-                            },
-                            {
-                                "reference": "Condition/1756d945-53af-367e-8296-dddf62a8fa83"
-                            },
-                            {
-                                "reference": "Condition/173757b6-858d-368a-9963-96c3c870c74f"
-                            },
-                            {
-                                "reference": "Condition/b0a94e02-8e23-3ab5-a7d9-08204f7dfb7d"
-=======
                                 "reference": "Condition/594e7fda-3975-3bec-94e1-5f5643d50a2c"
                             },
                             {
@@ -370,7 +300,6 @@
                             },
                             {
                                 "reference": "Condition/1353a164-4d50-3390-8d4e-229ff52ffa83"
->>>>>>> f52826e (Updating chirp ccda and test data)
                             }
                         ]
                     },
@@ -417,17 +346,10 @@
                         "mode": "snapshot",
                         "entry": [
                             {
-<<<<<<< HEAD
-                                "reference": "DiagnosticReport/f181c343-ee24-3147-b096-5f780f27ba01"
-                            },
-                            {
-                                "reference": "DiagnosticReport/fdabab93-4f09-33ad-b9b8-0d5d68b3d265"
-=======
                                 "reference": "DiagnosticReport/b217bc60-b44f-39a0-8f6b-041115b9e494"
                             },
                             {
                                 "reference": "DiagnosticReport/3f6fa961-f29d-323c-a815-1b87b77edf67"
->>>>>>> f52826e (Updating chirp ccda and test data)
                             }
                         ]
                     },
@@ -553,7 +475,7 @@
                 },
                 "author": [
                     {
-                        "reference": "Practitioner/c7c84c0b-8a0b-3871-b4ce-31ab96f70e1d"
+                        "reference": "Practitioner/17763d72-7526-32d1-a535-e60859682208"
                     },
                     {
                         "reference": "Practitioner/ead05b2c-8f43-3a9f-946d-1553f5aaa816"
@@ -562,11 +484,7 @@
             },
             "request": {
                 "method": "PUT",
-<<<<<<< HEAD
-                "url": "Composition/36ac5684-5958-3f6b-91f6-0887abb24a10"
-=======
                 "url": "Composition/ca59563a-05b8-34a0-8a18-ec8bc3a62cb3"
->>>>>>> f52826e (Updating chirp ccda and test data)
             }
         },
         {
@@ -607,7 +525,7 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:c7c84c0b-8a0b-3871-b4ce-31ab96f70e1d",
+            "fullUrl": "urn:uuid:17763d72-7526-32d1-a535-e60859682208",
             "resource": {
                 "resourceType": "Practitioner",
                 "meta": {
@@ -615,7 +533,7 @@
                         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
                     ]
                 },
-                "id": "c7c84c0b-8a0b-3871-b4ce-31ab96f70e1d",
+                "id": "17763d72-7526-32d1-a535-e60859682208",
                 "identifier": [
                     {
                         "system": "http://hl7.org/fhir/sid/us-npi",
@@ -627,12 +545,6 @@
                         "family": "Davis",
                         "given": [
                             "Albert"
-                        ]
-                    },
-                    {
-                        "family": "Zelaznik",
-                        "given": [
-                            "Steve"
                         ]
                     }
                 ],
@@ -652,11 +564,6 @@
                         "system": "phone",
                         "value": "555-555-1002",
                         "use": "work"
-                    },
-                    {
-                        "system": "phone",
-                        "value": "UNK",
-                        "use": "work"
                     }
                 ],
                 "qualification": [
@@ -670,28 +577,19 @@
                                 }
                             ]
                         }
-                    },
-                    {
-                        "code": {
-                            "coding": [
-                                {
-                                    "code": "UNK"
-                                }
-                            ]
-                        }
                     }
                 ]
             },
             "request": {
                 "method": "PUT",
-                "url": "Practitioner/c7c84c0b-8a0b-3871-b4ce-31ab96f70e1d"
+                "url": "Practitioner/17763d72-7526-32d1-a535-e60859682208"
             }
         },
         {
-            "fullUrl": "urn:uuid:847c8d34-fd6d-38b6-b408-9eb7cf95ae19",
+            "fullUrl": "urn:uuid:604a79b8-d538-3959-a3ef-5ac66ee03e08",
             "resource": {
                 "resourceType": "Location",
-                "id": "847c8d34-fd6d-38b6-b408-9eb7cf95ae19",
+                "id": "604a79b8-d538-3959-a3ef-5ac66ee03e08",
                 "identifier": [
                     {
                         "system": "http://hl7.org/fhir/sid/us-npi",
@@ -728,7 +626,7 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "Location/847c8d34-fd6d-38b6-b408-9eb7cf95ae19"
+                "url": "Location/604a79b8-d538-3959-a3ef-5ac66ee03e08"
             }
         },
         {
@@ -903,10 +801,10 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:c7c84c0b-8a0b-3871-b4ce-31ab96f70e1d",
+            "fullUrl": "urn:uuid:17763d72-7526-32d1-a535-e60859682208",
             "resource": {
                 "resourceType": "CareTeam",
-                "id": "c7c84c0b-8a0b-3871-b4ce-31ab96f70e1d",
+                "id": "17763d72-7526-32d1-a535-e60859682208",
                 "identifier": [
                     {
                         "system": "http://hl7.org/fhir/sid/us-npi",
@@ -973,7 +871,7 @@
                             }
                         ],
                         "member": {
-                            "reference": "Practitioner/c7c84c0b-8a0b-3871-b4ce-31ab96f70e1d",
+                            "reference": "Practitioner/17763d72-7526-32d1-a535-e60859682208",
                             "display": "Albert Davis"
                         }
                     }
@@ -984,20 +882,10 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "CareTeam/c7c84c0b-8a0b-3871-b4ce-31ab96f70e1d"
+                "url": "CareTeam/17763d72-7526-32d1-a535-e60859682208"
             }
         },
         {
-<<<<<<< HEAD
-            "fullUrl": "urn:uuid:b3f2aefb-195f-32d6-b0e2-9a5a578e18ac",
-            "resource": {
-                "resourceType": "AllergyIntolerance",
-                "id": "b3f2aefb-195f-32d6-b0e2-9a5a578e18ac",
-                "identifier": [
-                    {
-                        "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:86435039-14de-4a68-a1b3-ba83f87d5bba"
-=======
             "fullUrl": "urn:uuid:9572f410-fdac-3230-93ec-a8350f620cf6",
             "resource": {
                 "resourceType": "AllergyIntolerance",
@@ -1006,7 +894,6 @@
                     {
                         "system": "urn:ietf:rfc:3986",
                         "value": "urn:uuid:817dad25-702b-4ca2-815e-fb5fe1aa595f"
->>>>>>> f52826e (Updating chirp ccda and test data)
                     }
                 ],
                 "clinicalStatus": {
@@ -1066,20 +953,6 @@
             },
             "request": {
                 "method": "PUT",
-<<<<<<< HEAD
-                "url": "AllergyIntolerance/b3f2aefb-195f-32d6-b0e2-9a5a578e18ac"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:1eb2c602-edbb-3651-b24b-fab1f6baaa37",
-            "resource": {
-                "resourceType": "AllergyIntolerance",
-                "id": "1eb2c602-edbb-3651-b24b-fab1f6baaa37",
-                "identifier": [
-                    {
-                        "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:d3808384-6189-44ff-a2ab-b13a16af1da4"
-=======
                 "url": "AllergyIntolerance/9572f410-fdac-3230-93ec-a8350f620cf6"
             }
         },
@@ -1092,7 +965,6 @@
                     {
                         "system": "urn:ietf:rfc:3986",
                         "value": "urn:uuid:75f43cd1-2fa4-46ac-887e-0d2025f7fa32"
->>>>>>> f52826e (Updating chirp ccda and test data)
                     }
                 ],
                 "clinicalStatus": {
@@ -1152,20 +1024,6 @@
             },
             "request": {
                 "method": "PUT",
-<<<<<<< HEAD
-                "url": "AllergyIntolerance/1eb2c602-edbb-3651-b24b-fab1f6baaa37"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:0cc6ea26-0e43-3358-b5b9-2e192fcc3c6f",
-            "resource": {
-                "resourceType": "MedicationStatement",
-                "id": "0cc6ea26-0e43-3358-b5b9-2e192fcc3c6f",
-                "identifier": [
-                    {
-                        "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:7d28c1ed-481c-46ea-afd4-bfad68bde799"
-=======
                 "url": "AllergyIntolerance/50aaff2b-b6da-369f-9590-5126eeffa3df"
             }
         },
@@ -1178,7 +1036,6 @@
                     {
                         "system": "urn:ietf:rfc:3986",
                         "value": "urn:uuid:df3b2345-2705-4ccf-aa05-f54b9046da30"
->>>>>>> f52826e (Updating chirp ccda and test data)
                     }
                 ],
                 "status": "active",
@@ -1206,11 +1063,7 @@
             },
             "request": {
                 "method": "PUT",
-<<<<<<< HEAD
-                "url": "MedicationStatement/0cc6ea26-0e43-3358-b5b9-2e192fcc3c6f"
-=======
                 "url": "MedicationStatement/f0c18d48-aea1-380e-a1e3-2f193b96f7f4"
->>>>>>> f52826e (Updating chirp ccda and test data)
             }
         },
         {
@@ -1234,16 +1087,6 @@
             }
         },
         {
-<<<<<<< HEAD
-            "fullUrl": "urn:uuid:b9b54f80-e993-3029-b101-337462322fdf",
-            "resource": {
-                "resourceType": "MedicationRequest",
-                "id": "b9b54f80-e993-3029-b101-337462322fdf",
-                "identifier": [
-                    {
-                        "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:7d28c1ed-481c-46ea-afd4-bfad68bde799"
-=======
             "fullUrl": "urn:uuid:ef305331-1af2-330c-ace1-2927e0be0a74",
             "resource": {
                 "resourceType": "MedicationRequest",
@@ -1251,36 +1094,7 @@
                 "identifier": [
                     {
                         "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:aaaa9544-24fe-435a-a2fb-4a82b55988b5"
-                    }
-                ],
-                "intent": "order",
-                "status": "active",
-                "subject": {
-                    "reference": "Patient/f40da2df-7505-315a-9acb-55513a02c37b"
-                },
-                "medicationReference": {
-                    "reference": "Medication/a6491cac-c1ee-3c02-a78e-063c467a9350"
-                },
-                "requester": {
-                    "reference": "Practitioner/5942c17c-61a6-351b-a314-39fb9fc72561"
-                }
-            },
-            "request": {
-                "method": "PUT",
-                "url": "MedicationRequest/ef305331-1af2-330c-ace1-2927e0be0a74"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:b9121804-1ef1-3b86-9983-c1731f59f60f",
-            "resource": {
-                "resourceType": "MedicationStatement",
-                "id": "b9121804-1ef1-3b86-9983-c1731f59f60f",
-                "identifier": [
-                    {
-                        "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:18910da5-a09f-45f7-9188-16052cf7f799"
->>>>>>> f52826e (Updating chirp ccda and test data)
+                        "value": "urn:uuid:df3b2345-2705-4ccf-aa05-f54b9046da30"
                     }
                 ],
                 "intent": "order",
@@ -1303,20 +1117,15 @@
                     "reference": "Patient/f40da2df-7505-315a-9acb-55513a02c37b"
                 },
                 "medicationReference": {
-<<<<<<< HEAD
                     "reference": "Medication/a6491cac-c1ee-3c02-a78e-063c467a9350"
                 },
                 "requester": {
                     "reference": "Practitioner/77feb0a0-c8a6-342a-98da-5b3375442250"
-=======
-                    "reference": "Medication/3a5b2405-cbc2-3370-a18d-a4c96b12a816"
->>>>>>> f52826e (Updating chirp ccda and test data)
                 }
             },
             "request": {
                 "method": "PUT",
-<<<<<<< HEAD
-                "url": "MedicationRequest/b9b54f80-e993-3029-b101-337462322fdf"
+                "url": "MedicationRequest/ef305331-1af2-330c-ace1-2927e0be0a74"
             }
         },
         {
@@ -1368,20 +1177,17 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:adfd3ece-08e8-3f5d-9772-8f51192a9fc0",
+            "fullUrl": "urn:uuid:b9121804-1ef1-3b86-9983-c1731f59f60f",
             "resource": {
                 "resourceType": "MedicationStatement",
-                "id": "adfd3ece-08e8-3f5d-9772-8f51192a9fc0",
+                "id": "b9121804-1ef1-3b86-9983-c1731f59f60f",
                 "identifier": [
                     {
                         "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:428b1aa8-43b5-4027-bf0a-ce275fdb980b"
+                        "value": "urn:uuid:18910da5-a09f-45f7-9188-16052cf7f799"
                     }
                 ],
                 "status": "active",
-                "effectivePeriod": {
-                    "start": "2022-09-13"
-                },
                 "dosage": [
                     {
                         "text": "Take 1 tablet by mouth once a day",
@@ -1403,16 +1209,10 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "MedicationStatement/adfd3ece-08e8-3f5d-9772-8f51192a9fc0"
-            }
-        },
-        {
-=======
                 "url": "MedicationStatement/b9121804-1ef1-3b86-9983-c1731f59f60f"
             }
         },
         {
->>>>>>> f52826e (Updating chirp ccda and test data)
             "fullUrl": "urn:uuid:3a5b2405-cbc2-3370-a18d-a4c96b12a816",
             "resource": {
                 "resourceType": "Medication",
@@ -1433,21 +1233,19 @@
             }
         },
         {
-<<<<<<< HEAD
-            "fullUrl": "urn:uuid:adfd3ece-08e8-3f5d-9772-8f51192a9fc0",
+            "fullUrl": "urn:uuid:b9121804-1ef1-3b86-9983-c1731f59f60f",
             "resource": {
                 "resourceType": "MedicationRequest",
-                "id": "adfd3ece-08e8-3f5d-9772-8f51192a9fc0",
+                "id": "b9121804-1ef1-3b86-9983-c1731f59f60f",
                 "identifier": [
                     {
                         "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:428b1aa8-43b5-4027-bf0a-ce275fdb980b"
+                        "value": "urn:uuid:18910da5-a09f-45f7-9188-16052cf7f799"
                     }
                 ],
                 "intent": "plan",
                 "status": "active",
                 "reportedBoolean": true,
-                "authoredOn": "2022-09-13",
                 "dosageInstruction": [
                     {
                         "text": "Take 1 tablet by mouth once a day",
@@ -1472,19 +1270,10 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "MedicationRequest/adfd3ece-08e8-3f5d-9772-8f51192a9fc0"
+                "url": "MedicationRequest/b9121804-1ef1-3b86-9983-c1731f59f60f"
             }
         },
         {
-            "fullUrl": "urn:uuid:e9491721-dc0d-39fa-b52a-2cee89997404",
-            "resource": {
-                "resourceType": "MedicationStatement",
-                "id": "e9491721-dc0d-39fa-b52a-2cee89997404",
-                "identifier": [
-                    {
-                        "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:7c490f66-143a-45cf-ad59-31b8d3943bbb"
-=======
             "fullUrl": "urn:uuid:8484a16c-cc6b-3ff6-b5f3-da8bad64be5d",
             "resource": {
                 "resourceType": "MedicationStatement",
@@ -1493,7 +1282,6 @@
                     {
                         "system": "urn:ietf:rfc:3986",
                         "value": "urn:uuid:b0a4f905-84a4-44b5-b892-9354243a3a53"
->>>>>>> f52826e (Updating chirp ccda and test data)
                     }
                 ],
                 "status": "active",
@@ -1521,11 +1309,7 @@
             },
             "request": {
                 "method": "PUT",
-<<<<<<< HEAD
-                "url": "MedicationStatement/e9491721-dc0d-39fa-b52a-2cee89997404"
-=======
                 "url": "MedicationStatement/8484a16c-cc6b-3ff6-b5f3-da8bad64be5d"
->>>>>>> f52826e (Updating chirp ccda and test data)
             }
         },
         {
@@ -1549,16 +1333,6 @@
             }
         },
         {
-<<<<<<< HEAD
-            "fullUrl": "urn:uuid:cb4aea78-8bd4-3950-b16a-32bd803b3e13",
-            "resource": {
-                "resourceType": "MedicationRequest",
-                "id": "cb4aea78-8bd4-3950-b16a-32bd803b3e13",
-                "identifier": [
-                    {
-                        "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:7c490f66-143a-45cf-ad59-31b8d3943bbb"
-=======
             "fullUrl": "urn:uuid:d15e9dbb-4423-3e9a-bd24-928eb45e4786",
             "resource": {
                 "resourceType": "MedicationRequest",
@@ -1566,11 +1340,25 @@
                 "identifier": [
                     {
                         "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:e5652e14-e637-412f-960c-715bb29e9151"
+                        "value": "urn:uuid:b0a4f905-84a4-44b5-b892-9354243a3a53"
                     }
                 ],
                 "intent": "order",
                 "status": "active",
+                "reportedBoolean": false,
+                "authoredOn": "2015-06-22",
+                "dosageInstruction": [
+                    {
+                        "text": "Inject 1 unit twice a day as directed",
+                        "doseAndRate": [
+                            {
+                                "doseQuantity": {
+                                    "value": 1
+                                }
+                            }
+                        ]
+                    }
+                ],
                 "subject": {
                     "reference": "Patient/f40da2df-7505-315a-9acb-55513a02c37b"
                 },
@@ -1578,7 +1366,7 @@
                     "reference": "Medication/0ca58338-80c4-3637-8f7f-2ad7a174d09c"
                 },
                 "requester": {
-                    "reference": "Practitioner/5942c17c-61a6-351b-a314-39fb9fc72561"
+                    "reference": "Practitioner/77feb0a0-c8a6-342a-98da-5b3375442250"
                 }
             },
             "request": {
@@ -1595,61 +1383,6 @@
                     {
                         "system": "urn:ietf:rfc:3986",
                         "value": "urn:uuid:59089d3d-951c-416a-a5e5-3e202684bf8a"
->>>>>>> f52826e (Updating chirp ccda and test data)
-                    }
-                ],
-                "intent": "order",
-                "status": "active",
-<<<<<<< HEAD
-                "reportedBoolean": false,
-                "authoredOn": "2015-06-22",
-                "dosageInstruction": [
-=======
-                "effectivePeriod": {
-                    "start": "2015-06-22"
-                },
-                "dosage": [
->>>>>>> f52826e (Updating chirp ccda and test data)
-                    {
-                        "text": "Inject 1 unit twice a day as directed",
-                        "doseAndRate": [
-                            {
-                                "doseQuantity": {
-                                    "value": 1
-                                }
-                            }
-                        ]
-                    }
-                ],
-                "subject": {
-                    "reference": "Patient/f40da2df-7505-315a-9acb-55513a02c37b"
-                },
-                "medicationReference": {
-<<<<<<< HEAD
-                    "reference": "Medication/0ca58338-80c4-3637-8f7f-2ad7a174d09c"
-                },
-                "requester": {
-                    "reference": "Practitioner/77feb0a0-c8a6-342a-98da-5b3375442250"
-=======
-                    "reference": "Medication/f1bf406b-00cb-333d-bfe9-1c9e0a070162"
->>>>>>> f52826e (Updating chirp ccda and test data)
-                }
-            },
-            "request": {
-                "method": "PUT",
-<<<<<<< HEAD
-                "url": "MedicationRequest/cb4aea78-8bd4-3950-b16a-32bd803b3e13"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:712d0058-e962-369b-a28e-9662be6b94c7",
-            "resource": {
-                "resourceType": "MedicationStatement",
-                "id": "712d0058-e962-369b-a28e-9662be6b94c7",
-                "identifier": [
-                    {
-                        "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:5ca79117-a697-48d8-b2a0-f952a16c1445"
                     }
                 ],
                 "status": "active",
@@ -1677,16 +1410,10 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "MedicationStatement/712d0058-e962-369b-a28e-9662be6b94c7"
-            }
-        },
-        {
-=======
                 "url": "MedicationStatement/ed172dcb-2e2b-36ac-a99c-39f44a6b494a"
             }
         },
         {
->>>>>>> f52826e (Updating chirp ccda and test data)
             "fullUrl": "urn:uuid:f1bf406b-00cb-333d-bfe9-1c9e0a070162",
             "resource": {
                 "resourceType": "Medication",
@@ -1707,16 +1434,6 @@
             }
         },
         {
-<<<<<<< HEAD
-            "fullUrl": "urn:uuid:137682de-d9a4-300b-b5e3-f00704030ae4",
-            "resource": {
-                "resourceType": "MedicationRequest",
-                "id": "137682de-d9a4-300b-b5e3-f00704030ae4",
-                "identifier": [
-                    {
-                        "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:5ca79117-a697-48d8-b2a0-f952a16c1445"
-=======
             "fullUrl": "urn:uuid:448da1b8-011f-348e-a142-1fc6982c9bfa",
             "resource": {
                 "resourceType": "MedicationRequest",
@@ -1724,13 +1441,11 @@
                 "identifier": [
                     {
                         "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:5529bd52-2923-4599-9938-35864a343985"
->>>>>>> f52826e (Updating chirp ccda and test data)
+                        "value": "urn:uuid:59089d3d-951c-416a-a5e5-3e202684bf8a"
                     }
                 ],
                 "intent": "order",
                 "status": "active",
-<<<<<<< HEAD
                 "reportedBoolean": false,
                 "authoredOn": "2015-06-22",
                 "dosageInstruction": [
@@ -1745,8 +1460,6 @@
                         ]
                     }
                 ],
-=======
->>>>>>> f52826e (Updating chirp ccda and test data)
                 "subject": {
                     "reference": "Patient/f40da2df-7505-315a-9acb-55513a02c37b"
                 },
@@ -1754,20 +1467,12 @@
                     "reference": "Medication/f1bf406b-00cb-333d-bfe9-1c9e0a070162"
                 },
                 "requester": {
-<<<<<<< HEAD
                     "reference": "Practitioner/77feb0a0-c8a6-342a-98da-5b3375442250"
-=======
-                    "reference": "Practitioner/5942c17c-61a6-351b-a314-39fb9fc72561"
->>>>>>> f52826e (Updating chirp ccda and test data)
                 }
             },
             "request": {
                 "method": "PUT",
-<<<<<<< HEAD
-                "url": "MedicationRequest/137682de-d9a4-300b-b5e3-f00704030ae4"
-=======
                 "url": "MedicationRequest/448da1b8-011f-348e-a142-1fc6982c9bfa"
->>>>>>> f52826e (Updating chirp ccda and test data)
             }
         },
         {
@@ -2076,7 +1781,6 @@
             }
         },
         {
-            "value": "urn:uuid:7a524868-ad81-46ad-b1e1-44683737fd48",
             "fullUrl": "urn:uuid:c157972c-3f43-31c5-96d5-56033422fd2e",
             "resource": {
                 "resourceType": "DiagnosticReport",
@@ -2119,26 +1823,7 @@
                 },
                 "result": [
                     {
-                        "reference": "Observation/474c23f7-5c54-3967-8354-5104e061e5ef"
-                    },
-                    {
-                        "reference": "Observation/73451e5f-b774-3469-bbbb-24b6b298d0ed"
-                    },
-                    {
-                        "reference": "Observation/0dd96569-6f26-3f70-abe3-c82632906163"
-                    },
-                    {
-                        "reference": "Observation/45a4e85e-fb2a-3007-bd38-047e4a981189"
-                    },
-                    {
-                        "reference": "Observation/58ade1e5-a5fb-35e5-8af6-008d7d86d833"
-                    },
-                    {
-                        "reference": "Observation/59c8c057-7173-3b95-8b54-08e290ef9ad2"
-                    },
-                    {
-                        "reference": "Observation/af895761-6bc9-3245-ba3f-6cd429564e63"
-
+                        "reference": "Observation/5ebaa859-d9c3-39cf-932b-f7737676fd61"
                     },
                     {
                         "reference": "Observation/b55476ac-4fad-338c-8e30-00cf9a4433c6"
@@ -2162,11 +1847,6 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "DiagnosticReport/7d5d0ed3-19c9-3354-a6e6-32a7463b6fc5"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:474c23f7-5c54-3967-8354-5104e061e5ef",
                 "url": "DiagnosticReport/c157972c-3f43-31c5-96d5-56033422fd2e"
             }
         },
@@ -2215,11 +1895,6 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "Observation/474c23f7-5c54-3967-8354-5104e061e5ef"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:73451e5f-b774-3469-bbbb-24b6b298d0ed",
                 "url": "Observation/5ebaa859-d9c3-39cf-932b-f7737676fd61"
             }
         },
@@ -2268,11 +1943,6 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "Observation/73451e5f-b774-3469-bbbb-24b6b298d0ed"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:0dd96569-6f26-3f70-abe3-c82632906163",
                 "url": "Observation/b55476ac-4fad-338c-8e30-00cf9a4433c6"
             }
         },
@@ -2338,11 +2008,6 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "Observation/0dd96569-6f26-3f70-abe3-c82632906163"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:45a4e85e-fb2a-3007-bd38-047e4a981189",
                 "url": "Observation/4f4cd24d-2d25-374f-84aa-130e3d61e52b"
             }
         },
@@ -2408,11 +2073,6 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "Observation/45a4e85e-fb2a-3007-bd38-047e4a981189"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:58ade1e5-a5fb-35e5-8af6-008d7d86d833",
                 "url": "Observation/8d592be0-0e26-3796-8b4e-54305cc72c4b"
             }
         },
@@ -2425,7 +2085,7 @@
                         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
                     ]
                 },
-                "id": "58ade1e5-a5fb-35e5-8af6-008d7d86d833",
+                "id": "ca5e5f9a-73ed-330e-97b0-36701e8e5433",
                 "identifier": [
                     {
                         "system": "urn:ietf:rfc:3986",
@@ -2466,11 +2126,6 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "Observation/58ade1e5-a5fb-35e5-8af6-008d7d86d833"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:59c8c057-7173-3b95-8b54-08e290ef9ad2",
                 "url": "Observation/ca5e5f9a-73ed-330e-97b0-36701e8e5433"
             }
         },
@@ -2519,11 +2174,6 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "Observation/59c8c057-7173-3b95-8b54-08e290ef9ad2"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:af895761-6bc9-3245-ba3f-6cd429564e63",
                 "url": "Observation/40c76684-a36d-3d8e-9ea5-a0eacbd57795"
             }
         },
@@ -2536,12 +2186,6 @@
                         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
                     ]
                 },
-                "id": "af895761-6bc9-3245-ba3f-6cd429564e63",
-                "identifier": [
-                    {
-                        "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:cdc44d11-63ce-467b-8515-75ef1d0f7c2a"
-                    }],
                 "id": "39cbc15d-d5e1-3192-9dbe-f21ae5009b27",
                 "identifier": [
                     {
@@ -2583,18 +2227,6 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "Observation/af895761-6bc9-3245-ba3f-6cd429564e63"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:d6450fb1-ce67-3830-ba99-8d4d209cc49b",
-            "resource": {
-                "resourceType": "DiagnosticReport",
-                "id": "d6450fb1-ce67-3830-ba99-8d4d209cc49b",
-                "identifier": [
-                    {
-                        "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:e727870a-cd33-44f0-ac1e-562c34049597"}],
                 "url": "Observation/39cbc15d-d5e1-3192-9dbe-f21ae5009b27"
             }
         },
@@ -2641,17 +2273,12 @@
                 },
                 "result": [
                     {
-                        "reference": "Observation/45b94f1b-1106-3547-9aeb-64879fddb3b6"
+                        "reference": "Observation/28d07a6b-4398-3a1f-9523-f8dc3eb40972"
                     }
                 ]
             },
             "request": {
                 "method": "PUT",
-                "url": "DiagnosticReport/d6450fb1-ce67-3830-ba99-8d4d209cc49b"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:45b94f1b-1106-3547-9aeb-64879fddb3b6",
                 "url": "DiagnosticReport/21573d74-ee0b-317d-abdc-cbfa36a5c3c3"
             }
         },
@@ -2664,11 +2291,11 @@
                         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
                     ]
                 },
-                "id": "45b94f1b-1106-3547-9aeb-64879fddb3b6",
+                "id": "28d07a6b-4398-3a1f-9523-f8dc3eb40972",
                 "identifier": [
                     {
                         "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:4659a594-304b-483f-9fd9-31a3ecbef4d3"
+                        "value": "urn:uuid:75bfb98b-7b06-4ea5-a52e-5240291e790f"
                     }
                 ],
                 "category": [
@@ -2700,7 +2327,7 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "Observation/45b94f1b-1106-3547-9aeb-64879fddb3b6"
+                "url": "Observation/28d07a6b-4398-3a1f-9523-f8dc3eb40972"
             }
         },
         {
@@ -3705,17 +3332,10 @@
             }
         },
         {
-<<<<<<< HEAD
-            "fullUrl": "urn:uuid:be062b99-7b2a-392a-a967-145233bc6d31",
-            "resource": {
-                "resourceType": "CarePlan",
-                "id": "be062b99-7b2a-392a-a967-145233bc6d31",
-=======
             "fullUrl": "urn:uuid:ed35345a-6979-3ff3-ba9f-e9ba92da9d96",
             "resource": {
                 "resourceType": "CarePlan",
                 "id": "ed35345a-6979-3ff3-ba9f-e9ba92da9d96",
->>>>>>> f52826e (Updating chirp ccda and test data)
                 "text": {
                     "status": "additional",
                     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><list>\n  <item>\n    Urinalysis macro (dipstick) panel | Date: 6/29/15\n    <ID>PlannedObservation2dab4f8583ce44848069b18556d1c183</ID>\n  </item>\n  <item>\n    i. Get an EKG done on 6/23/2015.ii. Get a Chest X-ray done on 6/23/2015 showing the Lower Respiratory TractStructure.iii. Take Clindamycin 300mg three times a day as needed if pain does not subside/iv. Schedule follow on visit with Neighborhood Physicians Practice on7/1/2015.\n    <ID>PlannedObservation7a8da4f2-b8e1-439f-a8dd-40091dd88452</ID>\n  </item>\n</list></div>"
@@ -3741,16 +3361,6 @@
             },
             "request": {
                 "method": "PUT",
-<<<<<<< HEAD
-                "url": "CarePlan/be062b99-7b2a-392a-a967-145233bc6d31"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:f8ee92dd-c2bf-3637-8a82-561281c11e10",
-            "resource": {
-                "resourceType": "Encounter",
-                "id": "f8ee92dd-c2bf-3637-8a82-561281c11e10",
-=======
                 "url": "CarePlan/ed35345a-6979-3ff3-ba9f-e9ba92da9d96"
             }
         },
@@ -3759,7 +3369,6 @@
             "resource": {
                 "resourceType": "Encounter",
                 "id": "dcbb3e26-5ce0-3963-93dc-76bdc51dcf10",
->>>>>>> f52826e (Updating chirp ccda and test data)
                 "status": "finished",
                 "class": {
                     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -3790,11 +3399,7 @@
                 "identifier": [
                     {
                         "system": "urn:ietf:rfc:3986",
-<<<<<<< HEAD
-                        "value": "urn:uuid:08530ab8-c1ab-43ca-b6a4-414191a026b2"
-=======
                         "value": "urn:uuid:07a06b49-d05d-43df-8413-6f8e6278db5e"
->>>>>>> f52826e (Updating chirp ccda and test data)
                     }
                 ],
                 "period": {
@@ -3803,14 +3408,14 @@
                 "location": [
                     {
                         "location": {
-                            "reference": "Location/847c8d34-fd6d-38b6-b408-9eb7cf95ae19"
+                            "reference": "Location/604a79b8-d538-3959-a3ef-5ac66ee03e08"
                         }
                     }
                 ],
                 "participant": [
                     {
                         "individual": {
-                            "reference": "Practitioner/c7c84c0b-8a0b-3871-b4ce-31ab96f70e1d"
+                            "reference": "Practitioner/17763d72-7526-32d1-a535-e60859682208"
                         },
                         "period": {
                             "start": "2019-10-16T04:00:00.000Z"
@@ -3834,31 +3439,13 @@
                 "diagnosis": [
                     {
                         "condition": {
-<<<<<<< HEAD
-                            "reference": "Condition/719d3ca8-5250-37e2-aaa1-9bf1b067270b"
-=======
                             "reference": "Condition/40e113e9-224a-30d7-840a-a7c649abc527"
->>>>>>> f52826e (Updating chirp ccda and test data)
                         }
                     }
                 ]
             },
             "request": {
                 "method": "PUT",
-<<<<<<< HEAD
-                "url": "Encounter/f8ee92dd-c2bf-3637-8a82-561281c11e10"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:719d3ca8-5250-37e2-aaa1-9bf1b067270b",
-            "resource": {
-                "resourceType": "Condition",
-                "id": "719d3ca8-5250-37e2-aaa1-9bf1b067270b",
-                "identifier": [
-                    {
-                        "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:514289c3-876d-4c31-9f97-91145887e117"
-                    }],
                 "url": "Encounter/dcbb3e26-5ce0-3963-93dc-76bdc51dcf10"
             }
         },
@@ -3920,18 +3507,6 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "Condition/719d3ca8-5250-37e2-aaa1-9bf1b067270b"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:5c498cd1-ae4b-38af-adb7-e4030980f7c2",
-            "resource": {
-                "resourceType": "Immunization",
-                "id": "5c498cd1-ae4b-38af-adb7-e4030980f7c2",
-                "identifier": [
-                    {
-                        "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:d653ee73-a871-4751-954a-c22c8e368a5e"
                 "url": "Condition/40e113e9-224a-30d7-840a-a7c649abc527"
             }
         },
@@ -3982,19 +3557,6 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "Immunization/5c498cd1-ae4b-38af-adb7-e4030980f7c2"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:106df703-9ebe-31b4-bc31-fee9a6373294",
-            "resource": {
-                "resourceType": "Immunization",
-                "id": "106df703-9ebe-31b4-bc31-fee9a6373294",
-                "identifier": [
-                    {
-                        "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:e619e69c-e973-4ac4-b5af-c5e57a79970a"
-                    }],
                 "url": "Immunization/577d425c-0f33-38c6-a562-1b4c08fb39a5"
             }
         },
@@ -4035,18 +3597,6 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "Immunization/106df703-9ebe-31b4-bc31-fee9a6373294"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:f6c49272-7f1e-3df9-a0e1-1f595c03c04b",
-            "resource": {
-                "resourceType": "Immunization",
-                "id": "f6c49272-7f1e-3df9-a0e1-1f595c03c04b",
-                "identifier": [
-                    {
-                        "system": "urn:ietf:rfc:3986",
-                        "value": "urn:uuid:f9a42007-d22a-4b5f-8d90-2633d78e390f"
                 "url": "Immunization/312f631f-72de-3160-8ed8-542ab88e0ae8"
             }
         },
@@ -4097,7 +3647,7 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "Immunization/f6c49272-7f1e-3df9-a0e1-1f595c03c04b"
+                "url": "Immunization/dc04c454-6fd6-3ce3-a46a-c93d23b41d7c"
             }
         },
         {
@@ -4130,11 +3680,7 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:f492aca3-d0d0-38d8-9c12-18230388219d",
-            "resource": {
-                "resourceType": "DocumentReference",
-                "id": "f492aca3-d0d0-38d8-9c12-18230388219d",
-            "fullUrl": "urn:uuid:fbc12212-d6a5-36d8-89e0-c4fe753c11fd",
+            "fullUrl": "urn:uuid:8ce55388-9d68-3702-9064-be0267bb6e3d",
             "resource": {
                 "resourceType": "Goal",
                 "id": "8ce55388-9d68-3702-9064-be0267bb6e3d",
@@ -4166,7 +3712,7 @@
             "fullUrl": "urn:uuid:eb30dadc-ba72-3c05-b932-0639ae844eef",
             "resource": {
                 "resourceType": "DocumentReference",
-                "id": "a42801d5-5fec-3413-b5f9-effae48931fe",
+                "id": "eb30dadc-ba72-3c05-b932-0639ae844eef",
                 "type": {
                     "coding": [
                         {
@@ -4176,21 +3722,21 @@
                         }
                     ]
                 },
-                "date": "2022-09-28T20:42:50.064Z",
+                "date": "2022-10-03T20:42:42.974Z",
                 "status": "current",
                 "content": [
                     {
                         "attachment": {
                             "contentType": "text/plain",
-                            "data": "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",
-                            "hash": "IBupHMwEQOymsoRekYEvA87YBhs="
+                            "data": "H4sIAAAAAAAAE+19bXPbOJLw9/sVKF3dVVKPaYEg+JZzfKXYTuJdx/ZKTmb2tramQBK0eZFILUkl8dT9+KcB6oWkSImSKNuZUTazsUkARAP9ju7GyX//GA3RNx4nQRS+7ajHuPPfp/92cjYMwsBlw/PInYx4mCJoFSZvfiTB285Dmo7fdLvfv38//q4dR/F9l2Csdn/9dDVwH/iIKUGYpCx0eSfr9bYzicM3D0NTgbZvvmnTx2++RW75VReezV4nXlp6L550Tv8NoZOYs+HoLPI4cuH/3nY+Dzpd+SJ9HPNLD8VRlL7tkGPVOLYoPlaPVVWzLA1+gK/zHykPM3Bvb87Of/t4juEPxbMh+Gg8ZOnKYfAxgb9EPNmyV34WBKu6gi0FbzcY2bLXyikEs0Hu7lRcmu7ysPaxfmyLP/P1cBebo1FV0xS7I38dPCYwz6pBDLEqXpAADI/XbAQdB5PRiMXB7yyF76LIRxfjIBHjXkcpnwEdpEN+es5ShvwoRr1h4MJ7/n3EwiMEaBinQXiPVNzFWle1CTlCPPQWjwgm5KSbDSKG477P3TT4xu+CEUff2HDCxeIQomKsqZZua+r/E9gyhzL0Aw/oI2DDIH3MYeT1OnD1Y6Ln22QgnxUHLC1IGMUjNpx+e8jC+wm757mP8nD6LuZuFHt3LL7nqXgAj8awijBuP8oglc+CFZiy2NIipti2ZdvTXZaDMM+LZ7/IJZmEafx4+nlw0p39vHgLO5Ly05v+STf7KdcPwD19xxmwojQKoa/4ffF6HEGHoYD11DYxNk66uSf58WPO0x5MiSfJVRDyU1XTzSPUGzk8Ruex+G65xQyQbh4SoKYhLOJohgOvdF1/bRJNUXVKO2iSwLOPt7llqGxvmopKtFn7T2e59tP9yM09hD1e/AoPfDYKho+nGTafdKe/5lvcA6aGpxLpT7rZL8uv/xKFPKl9jf41AVTzAx6/7bzrd+RgAVtqftItTg+2fQQiAlaTCXL5AFTF4xwqvl+P/+oy+vcqBi3RwHuQMEO+WEiYihPE6UOeYFWBIjpWC61i5uZpBSjaULT1TIlo1vI8+zAW+k82Gv8XukgfQFICsiIFnZ2flWb7y0OQFicrhNib5blYTRjkbnO5mMTRmLOwMB0uu3yIo8m4MCHLUPR9TwjYOPoIDxi0QcC8r2DXw6gwvQWTG40mQiMRoqCAxCvY4LzNCB7n3l8Mbtdjp4GXIbuafqvnBII7f4LX5TX+MRZ8hXsoGUdflyYCL30ec9CNLkNvhq1pPCmiSHcl1MD58qxj/uuMs590y9z/hE3Sh2jK2kBi5iWbaoN4N7CtW8TKSTbRKUmC+5B7vVzn1TKDHhslUZH9yXG9nFpA8PTPrw00A1zWDa55cP/gRPFDFHno9uExEVwrTNAtkFYK7PDnEVCEmqCV9CP36yNCAKBg5VsKKZA5ivgPlBUylTm/5GXUbEtvQd3Pk1Gt6Dln34JkpeQBsZquERYw58rvgpYiiAVQl3s38T1wgd9L5J3Na91Wl7+2ctjFZBZ4Dc8WP3ugSl5A35jHJUKAp7kt34IQqEZ0ckDMp0DMO8CNx63wcvF0sd8n3RJWnLiTJI08QMMSjpwVnxeRfP6yBtt3Yq2zxbqMYoY+gn2cPizpbKVdMVRToTpVqGFW7coShq7D0TmWfuotYekcTwH3lpG0iKZY6EPVaFqt4mMV3cV8FIUpGsi3R8hIH9D7YRSt0viXsLbbbLMWKFLYbgCq8Ks39Z3Injf+tG/C42/AtC6+Ca+KO4SRzqQ4vD277XfmMynYoXl9KPq+UHIzq7SDgtAdThJoXKFLPADvLNuxK3qcdCu/fDLmMZjXI7ChhIdlOuP++07uS/4kdAWkOUULYFqvaFkVKuStsNvdYCyX7v104JIGcBsHIxY/ojMWc5AF0bdAGAsFVIni4D4I2fAOKOe0sv1Jt9Amhxh5cPIUUSkM5KsNyFef/ykpiAX9yPxbD6wYval+VF7EjAm4eXDRHfsRhdHoEb36eHnb670urWnPmwxT9Il7sPghL82tjknLl2VGnaHEGmYtG63UJGboB3pz8CNvqt5d3l1ddE6FRZ+9LM2nuyQ5arSQao6fPZ9j/SZ0kAalDwuaDSfD4fsh+xbB1D9f/7Wo7hd7NEIx9VhuOyCWekyIpRL4CcSBho9pUU4IFKnHMdXQftlIBy/j2PXns7OptCkS1hzTShjW5/dg34Mc9dD1JE6eFMeqlYK9oQtInhyvn+oRyzIB9mM0jsKFQQfyauKmE1iid5G3GL7ULGvK3SWDeBM3MJFe1+6O/Vc5kquwjlqmoStkc4dwbzjk8X3AkyPEPHFmwVHMmVwC8QhepkkZGuna7V1dXfQ/XF4MUO/6HPXOv1z0Bxeof9E7u7u8uR7kPMC5ZcjLA/loCJi7hFoBzL78UIILSgRI+Mvzt52R4Kdyxx3VMlzf8Byi2ZQzjWGKseo6usExtajaOe2NxsB7h8MgRP+HBH95g0xNm/6MssV6g/o/rgHR4Gl/Cv4b9BGwOoEnAw4LA2j5Bgn3RAwbKTuHLo9D0I5YOkneICYlvFDh5CyXgOpWQbUZqJg7KvFAflGmUcx9G9uWavoe8ZnBHOp2Tm95OAP1A3J4CCrWA0idBdy2hV8A4Cfd8r4DupSQ44SXNWHBy9yCgge41kEjsGGzXy++XHeWPr8J7dFjDReRfbshmlBvtv3zEZnvGLpjKy6jukI1bCiO7ZoKNizTZpruEM+q6P88HEB+OpHbn9NMMzyoaFmjeM/fFxRwC4M6rVeMUq1FF7Glz4eSUJKHYJzTJgaf3/1lCTGELusIaZIdheWw6ubdYB1WbYEW5jJMW41Swi0KKKJgu2bwOX4Bn/CYR3TFxMRRqMuIYqk6V3xH97nKmG7rfs0YORzrDQYXfcHe15sgtIxlCay1NDmqv7KETkI2DzlYjTUd1mCVbNMIs2TL1dglm8iBZsSm2rqa2X3ryM02llW8wfXNp4tzRXCvkv0VjcXepo8ojZaoUTzz4sl9B/1IgjcCvd92zs5rABrPzD2QIgtKOBt8qsTlYgfh9s4TxKfe9eeabqIjTD8I7zPNrdDtU++utlsRsUAer1/JKqs2E15lXJsL/BWfL9uyKxpKl9P0kGGGT/++gQZSuUPzoWvM5eV2bsltU3xb2IaaPe6WNrmaFHKNqilvBav99H5wJ3wh0+iXy9CbukNqZrQbC5ZDbMZAazilHGnOLT3Ps6lmWIpmcU2hWLMUx8GqYpo6Z4yZmm5WSOP5ONtyzPoRN+WOslOeYRFqUpNgTNtlWFJRbMKP5ITWyujmiCPH2x155DCbIdCKjZej5TZ/cPFlp22X422z9bJjfvsNUzMwNtvd/JlN0HT/Ja9bbFk9K1vCkzp2tma0RiOtHGXtCCddkM1FQ2bJbvlzWTKOzqgGtojCHMYUSlRLscFoVTyCHV2zNPhIBeYeLJkithwsmdLgc/wydZ9qrqcqxGfinI25imWZXMGAYET3TZ9p5GDJHCyZ57JkYHdaNGVqHHpPYtesdTce7Jqfza4xXZuYKlYwp8A7baIpFrE1xWMmdplJPMdaZYUc7JrqCR3smoNd86eza8RRbOGkVDDy0nHqng5Yy6fvm/Zuonjm8V1XLQpmzxYGCaiKSSIOp2vOUIGLDgafLq7vdj4vlUeFi+8prm0T1bSYYusesHrX4optU13RCPNs1TCo7uHO6d0DR9NYZ/SdJciPJqEntLMH9o0jXxz/IQZPzmMkowEQ/E0myVhsYXiPeiEfBQw5TERnC7UuN9wDzDSKH4/RIFp0Z8lXaJlvBt9yh1HCh4/A2sIAusjXYksFEU5iLifgDEWkqgwEnz265ykSGRNpyuWUp5HdoLlNgyc+Rsk4SNkQZu3LQTN4vIgnKIxSAMRJAtjk74HQqRBDHns8/s9//9HD/4We558PAqQQXfz1A8wy5GJJjS4RKVWqfixforMHnqToVyVmj8ttUPIQfRcbI6C9ir4DtH0OiwALCVuBRLCGDOfLYiGO79hXjkRaosdGjy4sgYbxSHSOOewAWA9JtiiwbSjk3IN1hpUcM2hZXsSuyFP0JqBt+9FQGCswLdjwIJWri9bFG4vmZlfNAN3uxPgZ+REh9byDGoRixdqcd1yEMhgU1IZK1nFxfXbz+fruot8O55h/jRimXuVhyEckzBufB+w+jJIg0YgtIi3eSwKbBRtolmEYYFoa5YiDueCFF+ciqKAvsyu49wb9ZQIoTUjoHSGBC08TVcBn8OS1LVjglj1ytEJHX+jmnBnccomtmNzQFKo5VHjQbEWnlOiqYRqaoa32mwmO38CMV8myKnR2e6eU/Rw3vi8pc5LOeLUk6Er30xpLr8LMLCJchW612n6stho3cdDN83SoCNYr5OnkP9O+r25zz6/stqE2XwGMHGaOb9hk2HCorYCF7wG+eb5iUVVTDN/iBjEtz9ErXKByjHxEra1hS2lgfZXZ25x1tOMUa7SbDXZ0212V/Z7c6F9lWm86UlNP//wDi9glwybcN3xFMzWsUN80FYeZukItaloqsXxNN5p5FXTdwCKfpnVfpDPko1UWdxqDNjKc7lzmx9M1YjTMsF/Kaby5vC4nZs4mUb8Oq/1gyxK98HoFgy0J6RUTWPWN7Vw1DahYtitSso4NQtZScjbnRl8o+Azmakm7WCZ1n5LLYDOMs3ApQ7YuaFxbntXl2blA1uUZHaFJKOw1EeO/0rNSMaO+jo8bUIBdkdYr5qPiHSZ00pV7tl8PScnH0ainaDClrJfqH1HpCnvEpAQ3yUMvC+xZyhAbTiN/K82SpVY7x4Gf87GoWRBmRqLLQrAsCMYgn+Cv+tPZigau3xtDVamhNPBmNpQ5HyI2rN4m8QYNMmBasR+zT50KH0UMikHko0BQiPTOgOWQeV7SB5YKD1LkupM4Fn4K8fgR3n5H3zn/mhxf88yXcy98DKMo5oiHPL6Xh4hehGJ+PxmyOAs5D8AoSVq1A5vpbx9urna1BFVSE0KxIqdpGV2qG1QL8QoFoQI7qtdKPt0ySCKXJ4mxLbKqiIXVSqley9RfEmvVl7zHa1NzQJNUcZOyKA2pepYalqVhJGhWT6yS0MuN26T5bOysotTj9Aud07OHOBLFR5LA/RryJIHlegicQDhpnceZ2/d46qOV+W3zyUkcFaQ+EUVqhuLYF+gwq5qGfEC4BClzcGG8j6BnxXfZXqBxpmAflRpEdw+PcRTACo4WTX5hqfuAfhFOyVTwqpxD+udKV1G11TXHihu3IX/ZL+LuwroqMa9lTvaiT8BWOJyhsWErDYybsoJ3KY9PsqT8aq3h8tOnz9eX/9N7igS/IDcbwzIxMJabL5dgVNjoC3PdLKltVjBL5L7+JioSxSH7TYUXBJvC6fzlV/kzUYEgFGIhrL/BGP6iz3dn8GZuwe4ha68wf6KandPL0AfsDX9nOQCEIZHwIbCq/0OqYeTmLOjYUAhBmBbnLKpADrMe+R2Tx3fiQCarQKbMD9hi/r+AbuLoJtd63wCDgS2SEb2ApTHIgvNgDCw2DtgRuuMpCyeJPMG75TFQYgIa4avzO3b7uryjXpRwuZ0qLiwNEduJKcJG9XbCz9fd3p7ODnK+wPP+5ZcSBz8R52GyUme+7lpRnxy8651/KgsCFPJ72VJGiPigmi2HiGwoHPSKOMjNh9g8AtjCOjV9pivE01yF2gZRbOo7CuEEM6ZRs9If2Jz7L7GGrTn/ChdWrRqrAv4BhAvnVM7lc/nl6re7QcVgcTRJ8+XSzkATNtR1PFo7JkZW2XSpRsDZJbp74AmbxGCIl/g4YCkbTRJXmkpB+L+ZtKmU9WEyGTGnKmDuZARkKnQukTR/G0fepKjL1EZSbophNT7szYfZKJw4D90n+ArwpmGNryl/2rE+1EgF4WxXnbB9+bVcirXXHygg1BSCXs1k22tANCkbjtCof907Qsk4+MqF4pryIDxCV9e3RzIKIrOTRIxGzKGxCkxw5N538bE+ukKCb9adfjQDvNhuuv3LVFaHQKAZVbPBlfrUgcM25bCcEMxFsU3VpUShHvEURweZ6GObYVMnnGpViQfbcVihvGzPYWfqSnMOu+z+b8JhD7xsQ14G6uYuvOzAXv647EX3NIJ9y1V0TH2Fuo6lWB6wF49j2/IpNpzKvKbt2IswFZ5SgVPhLzAX46DA/RmZ3vpT3+YKnBeMH2ZmbTo1a9PoRxR4mXnLhOSTezieG7pz9U7PPWRhGtzzstMlB8EwSq8noty6DIUiYKwWHvxsnPg5HWdaveeMGsSg24RqyuJ+bIgu/jUJxrWu+EsxzzDd/UR0tR8GbAWXe7Cbvxmd0zMWewFzEVgMj6ErPfNTd5FAXDZ+REE2K7G1aAwYO2JfZQjn5/PLN+gVVl9jbFBNNWyMTULIK9V8rRrCBH5F1Nfvrs5E7o2hfoQePVnCTYaFy9K/sm7U+/N9+WFK/eZgFwqA9m/aDuIsn61n27KoIUiynipo4HIA7VjXdXE5iAmvTM00rVJStUmrRpRoud5bv5fUZeC9IiNUz0qJbxkZWZ21eX5R1rfKjRtnbG6ay16XtbyixCj8z1TtwnY1p4gOYjOCmNPDNJLivFeX6prlOp5zUeJwvTQzMTWx1Xry25ZMoz6osWEi6LKimOdlKyKF1o9fH1w3TzCtX/STxI3G61JQ16NRjcW0ZvC1ua0r8lpFHdfpAr5UeazuWCuz4t6ntelcMk54m3Suj1lKkzgxXmRJiyLflfIeaOvyrJ2zMinYP80/2XNTvC5HI5fG3TntxSzkyRi9CkI0joaPSRQ7sMSvkT71G46uUPIoInLEodSltDiQOn8U5A2SIcAvaJTJkB1RJHJaB7InhUF1dcltzpuWgVabAw1N2e9BCswry2wiOgB6jyTLSmGOMvVJnf3uiOQzYNIzyETO01MCRpoDBk1d7qegzf8Q2V8qRvewN0jcTxKiJBqG+Q0U6XAo/R7MgWIJYHScnQc+JYBacwCh6d3jkIcR6NM/AO9k+fnwHjZHIuv6PVwkq+0Bwmc/J9xVfa0+edtwiKaWeq7ygK85RKO6QkysK9R1fYUx+MnXqWODvuSxmnpFDV1KeXa375C2JXfRWnVaerQrk5zkXQJ5Pf/6cosspML0Ipk4K8bq5V1bt/WThQ5BNL87SdxXKTnH2873r5tP5mV6ysSR2N8mLKvskgP0ZfrUyl6K7Yd5Ap+aqamErt3gTcp3NtdWnvUYAq3OFOtfvO9XUVsyGY+HhfJCg9urv+f5fP9vN21gkbptiS0Gf2ydUoVQnytU05nCiO8olFnE0XXbspy66lONeapszQr3oJWBrTgVrPWQVt+sVg/idtcBlUZbF4u9mJ24Eef6sng1zjLAxauExJBVNwjVQF51vUOhYdVVD4UG04se/gfQ+fcw+Fp380OhT3bxwyDl36puyyw1XroRovi2CSRVd41VtKl5J9zVgvgqZNq6pJ8XeOL4k6qCqmWr2GO6wrDtK1T3TcVWLUsBo1wnrm/6ZhXRbaMK7nCw2LIquE7De/GaYNUB66aKoGYRa+3pynaK4E2/d3XQ+p5S69OwRZtkqzbW+urdNYdYkz8I53cwo74NVr9FRelW6uiKY9lEsTWdEqoxjelVJU624PxVgTMHJ8AGrB8f662w/gJUFcdeBxa9TxZtY7tNFr3a8Xywxfdhi3Pd0AmH1tzQTIWqxFdsA7uKqeqOQ2xuq3pNTY+DLV49u4Mtjg62+EEjyyJ9bWzZnuYptq66wF0MpjCd64rGCSaGRR3fYu1oZFWK3R9cIzsYwH9k7Ypgm+oNqiM11q6anHofdKx96Fi6TmzH04lCREV82FVbsW3NUjTdMsTdB5ptHc47DjoWOuhYLzauX1/SftbW5VGxauMWq22JMu69KzS46919LqUQzSMCcy1aKIwmUg0ChqJYBOSyQFwAP+IjEaH4io1CngTs9U9dK00t10rbuPvGoaGWaRrbVMe7HbJQxIWKgkaVez9rcBdzlo5koaEWYkLFqMAbbhaFs4jHHOpbuqW5nFKLWtiwHdXSdcNTXdXSOqefYxEr/SgSj0bMjSP0ygvGSRq4X1+jMQv5cFqV+42oK293RRHu1ZF+y5MwmeUx6hPFsbiqgPz0FXjiKRRjW/U8y6I66ZwGx2hlwftg1mD3oveLmveBGLXNwvfBt2O0c/H7HWvfo13q2V1eL99ttWn14JVJMYSplmH4ukJcywcj0wf1ynKo4hCqeTbDmu45dSkwBSLbGHN3MV23IK19W7hF5XBJU/s5CujtGPCvLwf8r5f0KtXxNkXKp0Wb0RXQXzVXzzVo5wYXN9WIrdnr4qWnH562HYg6mhw9PI6jdFHubnYPgwX2iwFawKprGKZF1EoB01sHf2dg0LVZCgswRNtZ6cCsZJXgWiAwgSrZEMnixDLpaA4W0QzdtNZcL7EfuNYmIuTg2u5ajL3MW7M2QCtoe5EkUsMcCszi8ZTm5oDotkEADvz06782XyK3/tD2Bpb/e1bscYE8lqrB5M1NJn+2Vb24l1s9svqwfbMRNq8u4fqOpVqupTCmgjpgWo7CDOhFuOcaGrWIaVcd3+f4+dmNML5WM3NduDeKaY27152cc+c9S/q1nmt514Uq8nTpE95c8qS3DLdTVmKzey3yidxSHxBeRRjIUqV/UVWPsXxSgwRyiGe+zuK5r7JYkWlbf71ElfqdV3BqvlQ34N6vYCawqSoB+aG3cNtM/m6KmarWLsZUqoeNrqqowCZCxV2h7d1ScSOSytH8RgjE3H9NpCurNN06T/jyDC+w1mSGja+tKM+wycRqr6/Y97Wcfy5dQtO5AVKQKrbGdYXqlqs4tmUrzCO6qaqeYdlVwvbl6BJ07+mKzXUJvbou/0GX2LcuUYUEcoiDLtGyLlG70s+pSwAu7EOXmPtHWq4O08RJs61yYdswtwa5pI21C2myT0OQEnnVw3yOIMm/Bl7IHzdQLe4s+HaD+TXWLf4qZ5B3b83X9aBYPKdi4ZsWdy2iaB6Wdxraiu2ZRNE9W7M4MWyjMrDuBSkWe09+a6xYEPUpr1c9KBY5xaJuiINi0bZiUbfSz6pYNLtIc1PF4tkv0HxZl2e+oIszD8rBkygHho0dX3c8hfkuB+UAG4qjmRiUA4dyx9SoYVUlzb0c5UCzXoxygA9eh+c6wahAAjnEQTlo+wSjbqWf2esgavy2rRzMggLaxZjqSIRtlQWK1SbiubGu8HkhlxGvnmlz3eFSbbJ2TTWHxcK9GseBuC7xdYOJHfSIJ9EjCPEMlfhc8VWdKNT0RMCshhXNVzXsWC4ldtXVOy9Hj6A71FlofHVHcz8DqQuGQNOMvnwfceJh6YZ28E08k2+iJrnpoH607puoW+mfIIBiiXIBHwx5gU/bhyXTeMB2UW0Rebh1uIVpHWPSorKSm9IGIRWGcdzgIujmIRVrJvFsCsgzRsabS5HxOU5ITV21twlhz9Wsv51dBlB9u7O4LOXi/HP/Yt9XO88vJaCd02vuTIbB7zwWme3ybol5dLFBdCBILVfFe5/3Nc8npYubmtMsN3p6uulOL8RY3I+TyB1A3wKGvvFgERKtwjZpwNPsnWf9k1+EM8c1pfZ2m6mIn25zu3x3Ca120XVz+PoCtN3Mp7/11TxN7wT5SbCrKsUrn/kzo8d20WtjBtEK+lXB+uTot+PNUD/BlTTajhlq2hYZahq2dao0UfNKmAi6Dv8mwkYA/+7DSCRDopQnqbyBsBvFaMicaJoJ67GUVUr+Pk8mw90vppNyNBvrJr5noeC/qzLAskzktRmdRpcQmRxbKz9zQ14twL2Kphf0nPOUBcMEhqrYN/tY5MV9kaYAdJatqEmPUD9yvz4iWGmXH6F3nIHGmkbhEbrpI1vYpKtmU7VE82WqUbrzysh0EReaLj4W6XHREDYU2I1Yt6XLTKShCQ+zvjMlyjQtxZgB+Ab9ncv85Fya7NqlrVOqdoRH7Zz2xmPOYlFjYlOgDFOxF0CdDWGYlwAT6ZwOMkewK4ojfhNFl+aQOY/oTmSxJ2kcjJvBaamqoi/gVI9Ftrv6EiDVOqfjj7vBhjWFLGDTjzH6x/jjP18CcGCWfBhO3Cjh//gEOk73WzScjPg/Eej5kxm46YbgmjZRzBy4oqZT17t6CeCCwfNXDqyNJ22Ca+bZzrW8GltewPTs4BodkbWdglLWHrgWpgrOESpud3uXbcH61rWSeFXO8mm+wAZBXwL+PWkqeVuXdaqUdZUTWr8VmmFQLc80rybhPShDYLCIoh2uEBVHoK+H4rdYlOyIJinqhXwUsGOUZfpM9SfoEvNpLlIaIQ/U53gkEETUGRnHPJFaOkhk0Br4VIjNBnrqfd++RMgMPfL23Lve3d1F/+9tm3Q7n7E106vlwIu7bByd2sRyFW4QS6GUWortMKxw3TDhP2xhUmtDLhcfWa2sVozzlI4AYGHucJJA/7edNJ5UFqErn4NtMci6g7EKq2z+7kkPwOqOPTYdZbsDMN3zsWvrIPZdaihU813Ftk1P0UyDUld1TNuuKyqYd49JBb61k6eiCVG7PhscM1WaKk973LSRc0x2z05+Fgcyg7vOaWYabXvwUIv0B3KYxkwapmpxbihgvdkK5Qz4MPM1xTF0W6M6d1XuNiEHYfq1Rg4VFuieaOKpw8PboQlpWR9IYk8kATah7RNVU5irSwnhKTYVZbiJTrGu+9SpuhN1uoILkpBegtZIoqEDY09k8tSRCtuSyaKUtjq/J0UtXLTyt5r+82Xos/C+LlIiRwQrmlUQrah8Dp+ua1/UIWH2ODf7mmgA2SuvNUI3rUGvWraRvWwC4kl33WodWNCOLIhbhHDVVjTiU8F4XMVyVVNhlgqfsoAdWU3CtKQzrzUWVOtZ3BPTqas6/0KZjr64lU94TH82rlOeflO2YzXtd2A8PwXj8UResK4QbnmiCByo9b7KFaxpnKqMeabXJHdVutVbYzwbeP33xIrqYnZfKivCC6KUDu/1zOhAOLsRjkY8H3bKVFzDUhXqe6ri2DZVMHaIbTme65qN7GhxQNMa4WxwfrQnwqlzpb00wina17NzsYOJvS8nrC+kCqeKxixNZNgwxVKFO1Z1VGo5puvSJnUc5flem+H/TY8f90QtFbeNyc4vjVpmFid+KjkDvWYHYsXDtGbRkX/40zRuY9W3PSAlhzGgJ+opNgc5BFuqOVhlJrGrUumWT9MqzncPp2fowLjn9oHu+A7oM4rpYEMcF+gK0wlXdEIxsVVu2thfz7in0QDtHZ81wdrpKu3CoSuv6JOdXxqHLuozzxJs0bLy1FQEPOe9SKWs4M27bxqfTGzTINvEJw8iVySfT7OQKqOPi01aCUIejKKvQXifZeAohm6ondOzSRyLmKPpu3l6DvwbpyI2WtwKIJfCAHE2z+ih1LYMC2NSDj+a5wasi8N6F8Tpw4D/uAz9qHMqf0MJ//EGvecjNuS7hfOsuc52e4mxIZ83qyrK5BCoNxhc9O8ub67XZ6vT8iFtAjBUF0RsnkRRgRH7T6bYqBJXIR11jnUtFwKHVeAJMFiHuS5wWRYMH0uJqd0lbtjwTqE6lfipMJDgpeveDHndW9VO5zDTNAzL3immYAe0LPCGvSBkHqverye+CiDzF0B+4x946IkybaX6ZIKTrU1xBvsouBdXeN3VKTGbrlAmrusHrdQNnhOn84hHVMPY6disBvHupuT9OeHPlZ64ktGtsYAK9yHo6q71H9ByocEoHoHmKZlhueDg1uzvGdXBJWfAFv03VQgtE7hrg6Tdsj74JUhB1xsE92F1Erp8304mmhxqkYh2vPYyMtlBtgvCB+BnnhL9eLznoeKKejnh9AbcmR74BmmA7MrS7VezsPR5AHh2SeU8IF0z0H9sff9VESa1IUyyXeKMF1MXlxcqSxeQLU29PHeV6mg0+sfH+3+2BsHaq9SmEEA7rwgBGCR0Ywgsq20A1t5FNgUA2j3k7yATMGiYKEuGxfpdME3kjloDQGsIALQTfIUDGYj87xwUKlaWLhdcC4VmoTM+bA0K2hAKaJeMI7KYvm5T4HWbz9/WW6RjveHsdYFEYK/+BpuQ3wLLMLchBoy6oNu1BoXREApoFy9u6C3BYhPTVtTNicJqExbSkLPKdt9LZE1samjK0s2CSyBoy7zp631LAGgNAdC2BkDtEgsAIGo+7422CUEz0SDbbSzcqmbftnDTGsoG2W5j4VYBgY3bBqCZbJDtthFuVbvQpnCjDalAttt4B/SuSve8A7QhEdCtiKACANXYCoJ28w/Prj4P7i76bTuIKk69Nx9i8zPT1ZUQqwzkfN0vQ7gBm14IWGFqJdLUqsChijKH1CRWw3C6ui8doUyYHKGH+b/MQ24Qu5PR1LdzhKIfYPgDMhyhd58uj0SpEvRu0JtW/FDQxyvz+OzsvCfNgwr/QVWBxNbctJgQTbd1u8578XIOaCtqw243TAmnqXSb1sXFNMXr2iPM/PmstKBbO569zMx2lJntqGC2t3FOO3cQPOfZLLBrqpINomc0YxE88x8/U+DMn0kMrDmkOIiBpxYD5CAG2hAD9ZEseWey1FXbS2GE99EwcJEzhMWW0SPJJG4ls3fuTn3e6BxRwHyT+EmaS7rJtPs/RaD+C6eMBgkumRnaGmWcB2zfpPHcie4bkoZlHShjl2H2QxkNck4z91JrlPEu8h6nukqLxPDc6ewqFbVam8sJ01xQgzs6UMLzU0JdbnKBEsT5W7uUcLc46GuRHJ490XrtrRFFwzknG8748EAOz08Odfmx+WSt7Dy3NXq4yZxJiSCGbBeCEPXilMciajnTo5xHdDsZJnxu0bZINM+eErwZ0dj6E3ibDiTTnGQaFJnLwgdao5iPIkIB9QH0Fsng2RN8NyMDK5exKOISDpTw/JRQl/Wao4Qs+KQ1SugvolzapodnT+HdjB5U62no4XAOsds5RNWFjodziOc8h9AO5xAtcH/S5BxiGvfWrim98pq7zTl/PSBPxPk1TDZyKuU9rF/vD3z/ZfL92qoNB77/9HyfiMuMrQPfb4Hva38Uvl8PyP75foaPa+/qLRftoU/B+A+k0JwUGh04/1ShGPUwvVSqOIRi7DbMfiijyYHzTxaKUQ/UCyUNGx8oY5dh9kMZjQ6gX3woRj0cL5QYnigU42A272Y2r7nc/GA2P7HZrKv0YDa3wPdps7Dtn0sjqgfqSYQA4KZqk4NG9LNTxh/Piq6H6YUShmo8GWW8jHKgeZxUbc0UP+vCo7Ps1dm0cxMiKeg0RKNNYyRKwRAsAf7hRzHqCzyM2bA8c1n0qX/RG9xco/c3fdS/eH/R7/eudq0HVYEMs+T26wgFIcxplHE39o0FQ+aIspytpr+vRw9okcYTV4TcesIEEk8LjU66Z8MgDFw2PI9AHZPP/j//tpwVa1QBAA==",
+                            "hash": "Uj6lGHtKCh48N9LkopXs683jdY0="
                         }
                     }
                 ]
             },
             "request": {
                 "method": "PUT",
-                "url": "DocumentReference/f492aca3-d0d0-38d8-9c12-18230388219d"
+                "url": "DocumentReference/eb30dadc-ba72-3c05-b932-0639ae844eef"
             }
         }
     ]
