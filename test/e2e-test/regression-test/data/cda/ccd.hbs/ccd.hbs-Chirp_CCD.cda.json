@@ -3511,6 +3511,32 @@
             }
         },
         {
+            "fullUrl": "urn:uuid:8ce55388-9d68-3702-9064-be0267bb6e3d",
+            "resource": {
+                "resourceType": "Goal",
+                "id": "8ce55388-9d68-3702-9064-be0267bb6e3d",
+                "description": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "61146-7"
+                        }
+                    ]
+                },
+                "lifecycleStatus": "active",
+                "target": {
+                    "dueDate": "2020-09-28"
+                },
+                "subject": {
+                    "reference": "Patient/f40da2df-7505-315a-9acb-55513a02c37b"
+                }
+            },
+            "request": {
+                "method": "PUT",
+                "url": "Goal/8ce55388-9d68-3702-9064-be0267bb6e3d"
+            }
+        },
+        {
             "fullUrl": "urn:uuid:4aea1ddc-b0e4-32d0-b4ae-bd19b8f713c1",
             "resource": {
                 "resourceType": "Immunization",
@@ -3693,7 +3719,7 @@
                         }
                     ]
                 },
-                "date": "2022-10-03T21:09:30.684Z",
+                "date": "2022-10-04T14:13:42.580Z",
                 "status": "current",
                 "content": [
                     {
