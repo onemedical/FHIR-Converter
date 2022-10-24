@@ -3939,8 +3939,7 @@
                 "location": [
                     {
                         "location": {
-                            "reference": "Location/604a79b8-d538-3959-a3ef-5ac66ee03e08",
-                            "display": "Iora Health"
+                            "reference": "Location/604a79b8-d538-3959-a3ef-5ac66ee03e08"
                         }
                     }
                 ],
@@ -4417,7 +4416,7 @@
                         }
                     ]
                 },
-                "date": "2022-10-21T18:48:06.198Z",
+                "date": "2022-10-24T15:28:15.379Z",
                 "status": "current",
                 "content": [
                     {
