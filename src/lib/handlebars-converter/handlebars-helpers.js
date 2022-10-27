@@ -229,18 +229,28 @@ module.exports.external = [
         name: 'dateFormat',
         description: 'format date to YYYY-MM-DD from input dateString YYYYMMDD',
         func: function (dateString) {
-            if (!dateString || dateString.length !== 8) {
-                console.warn('Warning: dateString must be in format YYYY-MM-DD');
+            if ( dateString !== undefined && dateString.length == 8) {
+                let year = dateString.substring(0,4);
+                let month = dateString.substring(4,6);
+                let day = dateString.substring(6);
+                if (year.length !== 4 || month.length !== 2 || day.length !== 2) {
+                    console.warn('Warning: Must provide 4 digits for year, 2 digits for month, and 2 digits for day');
+                    return dateString;
+                }
+                return `${year}-${month}-${day}`;
+            } else if( dateString !== undefined && dateString.length == 6) {
+                let year = dateString.substring(0,2);
+                let month = dateString.substring(2,4);
+                let day = dateString.substring(4);
+                if (year.length !== 2 || month.length !== 2 || day.length !== 2) {
+                    console.warn('Warning: Must provide 2 digits for year, 2 digits for month, and 2 digits for day');
+                    return dateString;
+                }
+                return `20${year}-${month}-${day}`;
+            } else {
+                console.warn('Warning: Must provide 2 or 4 digits for year, 2 digits for month, and 2 digits for day');
                 return dateString;
             }
-            let year = dateString.substring(0,4);
-            let month = dateString.substring(4,6);
-            let day = dateString.substring(6);
-            if (year.length !== 4 || month.length !== 2 || day.length !== 2) {
-                console.warn('Warning: Must provide 4 digits for year, 2 digits for month, and 2 digits for day');
-                return dateString;
-            }
-            return `${year}-${month}-${day}`;
         }
     },
     {
