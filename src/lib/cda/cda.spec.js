@@ -38,6 +38,21 @@ describe('cda', function () {
             .catch((err) => done(err));
     });
 
+    it('should return an object with prototype', function (done) {
+        let data = '<a> <b c="d"/> </a>';
+        new cda().parseSrcData(data)
+            .then((result) => {
+                if (result.__proto__ !== undefined)
+                {
+                    done();
+                }
+                else {
+                    done(new Error(`Parsed data should have object prototype`));
+                }
+            })
+            .catch((err) => done(err));
+    });
+
     it('should fail while parsing incorrect data.', function (done) {
         new cda().parseSrcData('<a b c="d"/> </a>')
             .then(() => done(new Error(`parseSrcData should have failed!`)))

@@ -13,11 +13,13 @@ module.exports = class cda extends dataHandler {
 
     parseSrcData(data) {
         return new Promise((fulfill, reject) => {
-            parseString(data, { trim: true, explicitCharkey :true, mergeAttrs: true, explicitArray:false }, function (err, result) {
+            parseString(data, { trim: true, explicitCharkey: true, mergeAttrs: true, explicitArray: false }, function (err, result) {
                 if (err) {
                     reject(err);
                 }
-                result._originalData=data;
+                // Need this in order to get Object prototype back into the parsed results
+                result = JSON.parse(JSON.stringify(result));
+                result._originalData = data;
                 fulfill(result);
             });
         });
