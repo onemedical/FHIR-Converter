@@ -493,14 +493,14 @@ $(document).ready(function () {
         $('#settings-modal-alert').hide();
     });
 
-    // We will not allow the API key modal to be closed if the API key is wrong. 
+    // We will not allow the API key modal to be closed if the API key is wrong.
     $("#settings-modal").on('hidden.bs.modal', function () {
         if (uncheckedApiKey) {
             checkApiKey(undefined, function () { $('#settings-modal').modal('show'); });
         }
     });
 
-    // API Key save button 
+    // API Key save button
     $('#settings-save-button').on('click', function () {
         var settings = getSettings();
         var changesColorTheme = false;
@@ -530,7 +530,7 @@ $(document).ready(function () {
         loadBaseBranches();
     });
 
-    // New branch save button 
+    // New branch save button
     $('#new-branch-create-button').on('click', function () {
         createBranch($('#branch-name-input').val(), $('#base-branch-select').val(), $("#checkout-new-branch").prop("checked") == true);
     });
