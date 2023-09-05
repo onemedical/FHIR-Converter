@@ -9,11 +9,11 @@ function createAndUploadFhirResource()  {
         filePath = "src/sample-data/cda/Chirp_CCD.cda";
         newPath = "test/e2e-test/regression-test/data/cda/ccd.hbs/ccd.hbs-Chirp_CCD.cda.json";
     } else {
-        if ((process.env.npm_config_filePath || '') === '') {
+        if ((process.env.npm_config_filepath || '') === '') {
             console.log("Must specify file path");
             return;
         }
-        filePath = "../../" + process.env.npm_config_filePath;
+        filePath = "../../" + process.env.npm_config_filepath;
         newPath = filePath.replace(".xml", "--FHIR-RESOURCE.json");
         newPath = newPath.split("tmp").pop();
         newPath = "../../tmp/" + newPath;
