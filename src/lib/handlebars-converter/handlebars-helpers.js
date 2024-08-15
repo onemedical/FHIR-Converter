@@ -643,35 +643,56 @@ module.exports.external = [
             }
         }
     },
-
     {
         name: 'getBirthSexInfo',
         description: "Returns first instance of birthSex id e.g. getBirthSexInfo msg '2.16.840.1.113883.10.20.22.2.14'",
+        // FIXME: (anti-pattern) the arrow pattern here has been slightly improved but is still really bad
+        // FIXME: (code smell) long method - the function is way too long, but the structure of this file is terrible
+        // there isn't an obvious way to extract a method without introducing a new pattern and that's not the goal here
         func: function getBirthSexInfo(msg, templateId) {
             try {
-                var birthSexValue ;
+                var birthSexValue;
                 let structuredBody = msg.ClinicalDocument.component.structuredBody;
-                if(structuredBody && structuredBody.component) {
-                    for(var i=0; i< structuredBody.component.length; i++) {
-                        let sectionObj = structuredBody.component[i].section;
-                        if(sectionObj && sectionObj.templateId && JSON.stringify(sectionObj.templateId).includes('2.16.840.1.113883.10.20.22.2.17')){
-                            let entryObjs = sectionObj.entry;
-                            for(var j=0; j < entryObjs.length; j++) {
-                                let entryObj = entryObjs[j];
-                                if(entryObj){
-                                    let observation = entryObj.observation;
-                                    if(observation && observation.templateId && JSON.stringify(observation.templateId).includes(templateId)){
-                                        birthSexValue = observation.value.code;
-                                        break;
-                                    }
-                                }
+
+                // return undefined when there is no structured body component
+                if (!structuredBody || !structuredBody.component) return birthSexValue;
+
+                sectionLoop: for (var i = 0; i < structuredBody.component.length; i++) {
+                    let sectionObj = structuredBody.component[i].section;
+                    if (!sectionObj || !sectionObj.templateId) continue;
+                    if (!JSON.stringify(sectionObj.templateId).includes("2.16.840.1.113883.10.20.22.2.17")) continue;
+
+                    if (Array.isArray(sectionObj.entry)) {
+                        let entries = sectionObj.entry;
+                        for (var j = 0; j < entries.length; j++) {
+                            let entry = entries[j];
+                            if (!entry) continue;
+
+                            let observation = entry.observation;
+                            if (
+                                observation &&
+                                observation.templateId &&
+                                JSON.stringify(observation.templateId).includes(templateId)
+                            ) {
+                                birthSexValue = observation.value.code;
+                                break sectionLoop;
                             }
+                        }
+                    } else {
+                        let entry = sectionObj.entry;
+                        if (
+                            entry &&
+                            entry.observation &&
+                            entry.observation.templateId &&
+                            JSON.stringify(entry.observation.templateId).includes(templateId)
+                        ) {
+                            birthSexValue = entry.observation.value.code;
+                            break sectionLoop;
                         }
                     }
                 }
                 return birthSexValue;
-            }
-            catch (err) {
+            } catch (err) {
                 throw `helper "getBirthSexInfo" : ${err}`;
             }
         }
