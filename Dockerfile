@@ -1,7 +1,7 @@
 #########################################
 ### Base Image                         ##
 #########################################
-FROM node:14 AS build
+FROM node:18 AS build
 WORKDIR /app
 COPY . /app
 RUN npm install --only=production --no-fund --no-optional --no-audit

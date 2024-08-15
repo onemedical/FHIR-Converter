@@ -1,11 +1,11 @@
 version: 2.1
 
 orbs:
-  node: circleci/node@5.0.2
+  node: circleci/node@5.2.0
 
 workflows:
   test:
     jobs:
       - node/test:
-          version: "14.19.3"
+          version: "18.20.4"
           test-results-path: .test_output/
