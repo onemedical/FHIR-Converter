@@ -50,14 +50,14 @@
                         [
                           	{
                                	"system":"urn:ietf:bcp:47",
-                               	"code":"{{this.languageCode.code}}", 
+                               	"code":"{{this.languageCode.code}}",
                                 "display":{{>ValueSet/Language.hbs code=this.languageCode.code}},
                             },
                         ],
-                    },           
+                    },
                 	"preferred":{{this.preferenceInd.value}},
                 },
-            {{/each}}         
+            {{/each}}
         ],
     },
     "request":{
