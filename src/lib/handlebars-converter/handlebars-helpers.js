@@ -644,6 +644,25 @@ module.exports.external = [
         }
     },
     {
+        name: 'isRaceUnknown',
+        description: 'determines if the race is unknown',
+        func: function isRaceUnknown(patient) {
+            const raceCodeNullFlavor = !!patient.raceCode?.nullFlavor;
+            const sdtcRaceCodeNullFlavor = !!patient["sdtc:raceCode"]?.nullFlavor;
+            return raceCodeNullFlavor || sdtcRaceCodeNullFlavor;
+        }
+    },
+    {
+        name: 'isEthnicityUnknown',
+        description: 'Determines if the Ethnicity is Unknown (has a null flavor)',
+        func: function isEthnicityUnknown(patient) {
+            const ethnicGroupCodeNulllavor = !!patient.ethnicGroupCode?.nullFlavor;
+            const raceCodeNullFlavor = !!patient.raceCode?.nullFlavor;
+            const sdtcRaceCodeNullFlavor = !!patient["sdtc:raceCode"]?.nullFlavor;
+            return ethnicGroupCodeNulllavor || raceCodeNullFlavor || sdtcRaceCodeNullFlavor;
+        }
+    },
+    {
         name: 'getBirthSexInfo',
         description: "Returns first instance of birthSex id e.g. getBirthSexInfo msg '2.16.840.1.113883.10.20.22.2.14'",
         // FIXME: (anti-pattern) the arrow pattern here has been slightly improved but is still really bad

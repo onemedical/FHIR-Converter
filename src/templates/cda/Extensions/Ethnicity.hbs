@@ -16,12 +16,11 @@
                           {{/if}}
                       },
                   {{else}}
-                      {{#if (or (eq this.code '2135-2') 
-                            (eq this.code '2186-5'))}}
+                      {{#if (or (eq this.code '2135-2') (eq this.code '2186-5'))}}
                           "url" : "ombCategory",
                       {{else}}
                           "url" : "detailed",
-                      {{/if}}                   
+                      {{/if}}
                       "valueCoding" :  {{>DataType/Coding.hbs code=this}},
                   {{/if}}
               },
@@ -40,6 +39,6 @@
                   "valueString":"{{patient.ethnicGroupCode.displayName}}",
               {{/if}}
           }
-      ],                        
+      ],
   {{/if}}
 }
